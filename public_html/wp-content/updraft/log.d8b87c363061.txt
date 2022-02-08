@@ -1,0 +1,1272 @@
+0000.000 (0) Opened log file at time: Mon, 07 Feb 2022 20:21:37 +0000 on https://agvoy.go.yj.fr
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.6M | 71M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 2049749.9 MB
+0000.002 (0) Deleting old temporary file: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.list.tmp
+0000.002 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.006 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.007 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2022-02-07 20:21:37
+0000.008 (0) Semaphore (fd, wp_options) reset to 1
+0000.008 (0) Set semaphore last lock (fd) time to 2022-02-07 20:21:37
+0000.008 (0) Semaphore lock (fd) complete
+0000.010 (0) Backup run: resumption=0, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1644265597) in case this run gets aborted
+0000.029 (0) Checking if we have a zip executable available
+0000.029 (0) Testing: /usr/bin/zip
+0000.034 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.034 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.035 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.035 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.039 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.039 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.044 (0) Working binary zip found: /usr/bin/zip
+0000.045 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.045 (0) Creation of backups of directories: beginning
+0000.046 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.135 (0) Total entities for the zip file: 899 directories, 4362 files (0 skipped as non-modified), 86.4 MB
+0000.137 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.139 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.140 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.142 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.192 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.193 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.195 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.197 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.197 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.1 MB, 4362 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0030.541 (0) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: size is now: 7.10 MB
+0030.545 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1100 files added (on-disk size: 7262.6 KB)
+0030.547 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1200 files added (on-disk size: 7262.6 KB)
+0030.548 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1300 files added (on-disk size: 7262.6 KB)
+0030.549 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1400 files added (on-disk size: 7262.6 KB)
+0030.551 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1500 files added (on-disk size: 7262.6 KB)
+0030.552 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1600 files added (on-disk size: 7262.6 KB)
+0030.553 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1700 files added (on-disk size: 7262.6 KB)
+0030.555 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1800 files added (on-disk size: 7262.6 KB)
+0030.556 (0) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1900 files added (on-disk size: 7262.6 KB)
+0030.557 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 4362 files batched, 982 (1983) added so far); re-opening (prior size: 7262.6 KB)
+0049.080 (0) Binary zip: error (code: 9 - look it up in the Diagnostics section of the zip manual at http://infozip.sourceforge.net/FAQ.html#error-codes for interpretation... and also check that your hosting account quota is not full)
+0049.083 (0) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+0049.244 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ConcreteClassFactory.php (exists: 1, is_readable: 1 size: 1605)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/FactoryInterface.php (exists: 1, is_readable: 1 size: 426)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/MapFactory.php (exists: 1, is_readable: 1 size: 639)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php (exists: 1, is_readable: 1 size: 2157)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/AbstractRequestVisitor.php (exists: 1, is_readable: 1 size: 2302)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/BodyVisitor.php (exists: 1, is_readable: 1 size: 2479)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/HeaderVisitor.php (exists: 1, is_readable: 1 size: 1529)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/JsonVisitor.php (exists: 1, is_readable: 1 size: 2024)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFieldVisitor.php (exists: 1, is_readable: 1 size: 525)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFileVisitor.php (exists: 1, is_readable: 1 size: 702)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/QueryVisitor.php (exists: 1, is_readable: 1 size: 536)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/RequestVisitorInterface.php (exists: 1, is_readable: 1 size: 1079)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/ResponseBodyVisitor.php (exists: 1, is_readable: 1 size: 499)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/XmlVisitor.php (exists: 1, is_readable: 1 size: 8099)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/AbstractResponseVisitor.php (exists: 1, is_readable: 1 size: 614)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/BodyVisitor.php (exists: 1, is_readable: 1 size: 563)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/HeaderVisitor.php (exists: 1, is_readable: 1 size: 1814)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/JsonVisitor.php (exists: 1, is_readable: 1 size: 3514)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ReasonPhraseVisitor.php (exists: 1, is_readable: 1 size: 584)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ResponseVisitorInterface.php (exists: 1, is_readable: 1 size: 1586)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/StatusCodeVisitor.php (exists: 1, is_readable: 1 size: 578)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/XmlVisitor.php (exists: 1, is_readable: 1 size: 5584)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php (exists: 1, is_readable: 1 size: 4819)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/AbstractCommand.php (exists: 1, is_readable: 1 size: 12340)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php (exists: 1, is_readable: 1 size: 1309)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CommandInterface.php (exists: 1, is_readable: 1 size: 3525)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CreateResponseClassEvent.php (exists: 1, is_readable: 1 size: 572)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultRequestSerializer.php (exists: 1, is_readable: 1 size: 5846)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultResponseParser.php (exists: 1, is_readable: 1 size: 1493)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationCommand.php (exists: 1, is_readable: 1 size: 2523)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationResponseParser.php (exists: 1, is_readable: 1 size: 7377)
+0049.246 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/RequestSerializerInterface.php (exists: 1, is_readable: 1 size: 486)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseClassInterface.php (exists: 1, is_readable: 1 size: 443)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ResponseParserInterface.php (exists: 1, is_readable: 1 size: 491)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/OperationInterface.php (exists: 1, is_readable: 1 size: 3721)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Operation.php (exists: 1, is_readable: 1 size: 15734)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/Parameter.php (exists: 1, is_readable: 1 size: 25055)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaFormatter.php (exists: 1, is_readable: 1 size: 4073)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php (exists: 1, is_readable: 1 size: 11882)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionInterface.php (exists: 1, is_readable: 1 size: 2225)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescriptionLoader.php (exists: 1, is_readable: 1 size: 2535)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ServiceDescription.php (exists: 1, is_readable: 1 size: 7308)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/ValidatorInterface.php (exists: 1, is_readable: 1 size: 977)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandException.php (exists: 1, is_readable: 1 size: 142)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/CommandTransferException.php (exists: 1, is_readable: 1 size: 3013)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/DescriptionBuilderException.php (exists: 1, is_readable: 1 size: 153)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/InconsistentClientTransferException.php (exists: 1, is_readable: 1 size: 918)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ResponseClassException.php (exists: 1, is_readable: 1 size: 149)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceBuilderException.php (exists: 1, is_readable: 1 size: 149)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceNotFoundException.php (exists: 1, is_readable: 1 size: 110)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ValidationException.php (exists: 1, is_readable: 1 size: 541)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/AbstractResourceIteratorFactory.php (exists: 1, is_readable: 1 size: 1045)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/CompositeResourceIteratorFactory.php (exists: 1, is_readable: 1 size: 1775)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/MapResourceIteratorFactory.php (exists: 1, is_readable: 1 size: 904)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/Model.php (exists: 1, is_readable: 1 size: 2062)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorApplyBatched.php (exists: 1, is_readable: 1 size: 3411)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorClassFactory.php (exists: 1, is_readable: 1 size: 1992)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorFactoryInterface.php (exists: 1, is_readable: 1 size: 789)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIteratorInterface.php (exists: 1, is_readable: 1 size: 1795)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/ResourceIterator.php (exists: 1, is_readable: 1 size: 7516)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/AbstractConfigLoader.php (exists: 1, is_readable: 1 size: 6001)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/CachingConfigLoader.php (exists: 1, is_readable: 1 size: 1172)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/ClientInterface.php (exists: 1, is_readable: 1 size: 2707)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Client.php (exists: 1, is_readable: 1 size: 9495)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/composer.json (exists: 1, is_readable: 1 size: 798)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/ConfigLoaderInterface.php (exists: 1, is_readable: 1 size: 699)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Stream/composer.json (exists: 1, is_readable: 1 size: 766)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Stream/PhpStreamRequestFactory.php (exists: 1, is_readable: 1 size: 9476)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamInterface.php (exists: 1, is_readable: 1 size: 4664)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Stream/Stream.php (exists: 1, is_readable: 1 size: 7453)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Stream/StreamRequestFactoryInterface.php (exists: 1, is_readable: 1 size: 859)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/build.xml (exists: 1, is_readable: 1 size: 1764)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/CHANGELOG.md (exists: 1, is_readable: 1 size: 48361)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/composer.json (exists: 1, is_readable: 1 size: 2497)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/LICENSE (exists: 1, is_readable: 1 size: 1111)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/phar-stub.php (exists: 1, is_readable: 1 size: 593)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/phpunit.xml.dist (exists: 1, is_readable: 1 size: 2378)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/README.md (exists: 1, is_readable: 1 size: 2279)
+0049.247 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/UPGRADING.md (exists: 1, is_readable: 1 size: 21526)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionFilterIterator.php (exists: 1, is_readable: 1 size: 2367)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionIterator.php (exists: 1, is_readable: 1 size: 3186)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCache.php (exists: 1, is_readable: 1 size: 4309)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollectionInterface.php (exists: 1, is_readable: 1 size: 1712)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollection.php (exists: 1, is_readable: 1 size: 5897)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetInterface.php (exists: 1, is_readable: 1 size: 4254)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetReference.php (exists: 1, is_readable: 1 size: 3401)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/BaseAsset.php (exists: 1, is_readable: 1 size: 4358)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/FileAsset.php (exists: 1, is_readable: 1 size: 2373)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/GlobAsset.php (exists: 1, is_readable: 1 size: 2776)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/HttpAsset.php (exists: 1, is_readable: 1 size: 2406)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Asset/StringAsset.php (exists: 1, is_readable: 1 size: 1319)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/ApcCache.php (exists: 1, is_readable: 1 size: 1276)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/ArrayCache.php (exists: 1, is_readable: 1 size: 1091)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/CacheInterface.php (exists: 1, is_readable: 1 size: 1127)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/ConfigCache.php (exists: 1, is_readable: 1 size: 3108)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/ExpiringCache.php (exists: 1, is_readable: 1 size: 1306)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Cache/FilesystemCache.php (exists: 1, is_readable: 1 size: 1489)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Exception/Exception.php (exists: 1, is_readable: 1 size: 380)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php (exists: 1, is_readable: 1 size: 1725)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticExtension.php (exists: 1, is_readable: 1 size: 2182)
+0049.247 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterFunction.php (exists: 1, is_readable: 1 size: 653)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterInvoker.php (exists: 1, is_readable: 1 size: 1339)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterNode.php (exists: 1, is_readable: 1 size: 646)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticNode.php (exists: 1, is_readable: 1 size: 5071)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticTokenParser.php (exists: 1, is_readable: 1 size: 8221)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigFormulaLoader.php (exists: 1, is_readable: 1 size: 3473)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigResource.php (exists: 1, is_readable: 1 size: 1285)
+0049.248 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/ValueContainer.php (exists: 1, is_readable: 1 size: 1809)
+0049.254 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/BasePhpFormulaLoader.php (exists: 1, is_readable: 1 size: 5017)
+0049.261 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/CachedFormulaLoader.php (exists: 1, is_readable: 1 size: 1998)
+0049.281 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FormulaLoaderInterface.php (exists: 1, is_readable: 1 size: 814)
+0049.293 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php (exists: 1, is_readable: 1 size: 1091)
+0049.324 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/CoalescingDirectoryResource.php (exists: 1, is_readable: 1 size: 2726)
+0049.332 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php (exists: 1, is_readable: 1 size: 3193)
+0049.375 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/FileResource.php (exists: 1, is_readable: 1 size: 981)
+0049.398 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/IteratorResourceInterface.php (exists: 1, is_readable: 1 size: 493)
+0049.398 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/ResourceInterface.php (exists: 1, is_readable: 1 size: 1002)
+0049.441 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/CacheBustingWorker.php (exists: 1, is_readable: 1 size: 1811)
+0049.457 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/EnsureFilterWorker.php (exists: 1, is_readable: 1 size: 1755)
+0049.488 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/WorkerInterface.php (exists: 1, is_readable: 1 size: 827)
+0049.535 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/AssetFactory.php (exists: 1, is_readable: 1 size: 12449)
+0049.543 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/LazyAssetManager.php (exists: 1, is_readable: 1 size: 5279)
+0049.554 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/BaseCompilerFilter.php (exists: 1, is_readable: 1 size: 2535)
+0049.679 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerApiFilter.php (exists: 1, is_readable: 1 size: 4576)
+0049.679 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerJarFilter.php (exists: 1, is_readable: 1 size: 3272)
+0049.679 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/BaseSassFilter.php (exists: 1, is_readable: 1 size: 2805)
+0049.734 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/SassFilter.php (exists: 1, is_readable: 1 size: 4356)
+0049.761 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/ScssFilter.php (exists: 1, is_readable: 1 size: 611)
+0049.761 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/BaseCompressorFilter.php (exists: 1, is_readable: 1 size: 2999)
+0049.785 (0) File: plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/CssCompressorFilter.php (exists: 1, is_readable: 1 size: 661)
+0300.448 (1) Opened log file at time: Mon, 07 Feb 2022 20:26:38 +0000 on https://agvoy.go.yj.fr
+0300.491 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0300.492 (1) Free space on disk containing Updraft's temporary directory: 2049733.9 MB
+0300.495 (1) Requesting backup semaphore lock (d8b87c363061)
+0300.495 (1) [Debug] Lock option (updraft_lock_d8b87c363061, wp_options) was created in the database
+0300.495 (1) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired after initialising the database
+0300.496 (1) Backup run: resumption=1, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (301s ago), job type=backup, previous check-in=43.8s
+0300.496 (1) Scheduling a resumption (2) after 300 seconds (1644265898) in case this run gets aborted
+0300.725 (1) Checking if we have a zip executable available
+0300.725 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0300.725 (1) Creation of backups of directories: had begun; will resume
+0300.758 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0300.758 (1) File exists (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1644265328, time_now=1644265598, diff=270)
+0301.197 (1) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.list-temp.tmp)
+0301.200 (1) Successfully created zip file manifest (size: 84570)
+0301.200 (1) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: Zip file already exists, with 1001 files
+0301.324 (1) Total entities for the zip file: 899 directories, 4362 files (0 skipped as non-modified), 86.4 MB
+0301.326 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 100 files added (on-disk size: 7262.6 KB)
+0301.326 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 200 files added (on-disk size: 7262.6 KB)
+0301.327 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 300 files added (on-disk size: 7262.6 KB)
+0301.327 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 400 files added (on-disk size: 7262.6 KB)
+0301.327 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 500 files added (on-disk size: 7262.6 KB)
+0301.328 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 600 files added (on-disk size: 7262.6 KB)
+0301.328 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 700 files added (on-disk size: 7262.6 KB)
+0301.329 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 800 files added (on-disk size: 7262.6 KB)
+0301.329 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 900 files added (on-disk size: 7262.6 KB)
+0301.330 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1000 files added (on-disk size: 7262.6 KB)
+0301.331 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1100 files added (on-disk size: 7262.6 KB)
+0301.392 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1200 files added (on-disk size: 7262.6 KB)
+0301.393 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1300 files added (on-disk size: 7262.6 KB)
+0301.394 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1400 files added (on-disk size: 7262.6 KB)
+0301.396 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1500 files added (on-disk size: 7262.6 KB)
+0301.399 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1600 files added (on-disk size: 7262.6 KB)
+0301.401 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1700 files added (on-disk size: 7262.6 KB)
+0301.402 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1800 files added (on-disk size: 7262.6 KB)
+0301.403 (1) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1900 files added (on-disk size: 7262.6 KB)
+0301.404 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 4362 files batched, 982 (982) added so far); re-opening (prior size: 7262.6 KB)
+0604.827 (2) Opened log file at time: Mon, 07 Feb 2022 20:31:42 +0000 on https://agvoy.go.yj.fr
+0604.828 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0604.828 (2) Free space on disk containing Updraft's temporary directory: 2049733.8 MB
+0604.831 (2) Requesting backup semaphore lock (d8b87c363061)
+0604.831 (2) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+0604.832 (2) Backup run: resumption=2, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (605s ago), job type=backup, previous check-in=14.34s
+0604.832 (2) Scheduling a resumption (3) after 300 seconds (1644266202) in case this run gets aborted
+0605.065 (2) Checking if we have a zip executable available
+0605.066 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0605.066 (2) Creation of backups of directories: had begun; will resume
+0605.098 (2) Beginning creation of dump of plugins (split every: 400 MB)
+0605.099 (2) File exists (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1644265599, time_now=1644265903, diff=304)
+0605.538 (2) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.list-temp.tmp)
+0605.541 (2) Successfully created zip file manifest (size: 84570)
+0605.541 (2) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: Zip file already exists, with 1001 files
+0605.703 (2) Total entities for the zip file: 899 directories, 4362 files (0 skipped as non-modified), 86.4 MB
+0605.704 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 100 files added (on-disk size: 7262.6 KB)
+0605.705 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 200 files added (on-disk size: 7262.6 KB)
+0605.705 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 300 files added (on-disk size: 7262.6 KB)
+0605.706 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 400 files added (on-disk size: 7262.6 KB)
+0605.706 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 500 files added (on-disk size: 7262.6 KB)
+0605.707 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 600 files added (on-disk size: 7262.6 KB)
+0605.707 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 700 files added (on-disk size: 7262.6 KB)
+0605.708 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 800 files added (on-disk size: 7262.6 KB)
+0605.708 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 900 files added (on-disk size: 7262.6 KB)
+0605.709 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1000 files added (on-disk size: 7262.6 KB)
+0605.710 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1100 files added (on-disk size: 7262.6 KB)
+0605.711 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1200 files added (on-disk size: 7262.6 KB)
+0605.713 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1300 files added (on-disk size: 7262.6 KB)
+0605.714 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1400 files added (on-disk size: 7262.6 KB)
+0605.715 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1500 files added (on-disk size: 7262.6 KB)
+0605.716 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1600 files added (on-disk size: 7262.6 KB)
+0605.718 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1700 files added (on-disk size: 7262.6 KB)
+0605.719 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1800 files added (on-disk size: 7262.6 KB)
+0605.720 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1900 files added (on-disk size: 7262.6 KB)
+0605.721 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 4362 files batched, 982 (982) added so far); re-opening (prior size: 7262.6 KB)
+0627.858 (2) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: size is now: 13.80 MB
+0627.859 (2) A useful amount of data was added after this amount of zip processing: 22.8 s (normalised: 22.3 s, rate: 1149.4 KB/s)
+0627.859 (2) Performance is good - will increase the amount of data we attempt to batch (time=22.767272949219, normalised_time=22.272984059879, max_time=44, data points known=2, old_max_bytes=26214400, new_max_bytes=31071730)
+0627.860 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2000 files added (on-disk size: 14156.4 KB)
+0627.861 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2100 files added (on-disk size: 14156.4 KB)
+0627.862 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2200 files added (on-disk size: 14156.4 KB)
+0627.864 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2300 files added (on-disk size: 14156.4 KB)
+0627.865 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2400 files added (on-disk size: 14156.4 KB)
+0627.866 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2500 files added (on-disk size: 14156.4 KB)
+0627.867 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2600 files added (on-disk size: 14156.4 KB)
+0627.869 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2700 files added (on-disk size: 14156.4 KB)
+0627.870 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2800 files added (on-disk size: 14156.4 KB)
+0627.871 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2900 files added (on-disk size: 14156.4 KB)
+0627.872 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.7 MB, 4362 files batched, 1001 (1983) added so far); re-opening (prior size: 14156.4 KB)
+0643.691 (2) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: size is now: 21.40 MB
+0643.693 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3000 files added (on-disk size: 21879.5 KB)
+0643.694 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3100 files added (on-disk size: 21879.5 KB)
+0643.695 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3200 files added (on-disk size: 21879.5 KB)
+0643.696 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3300 files added (on-disk size: 21879.5 KB)
+0643.698 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3400 files added (on-disk size: 21879.5 KB)
+0643.699 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3500 files added (on-disk size: 21879.5 KB)
+0643.700 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3600 files added (on-disk size: 21879.5 KB)
+0643.702 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3700 files added (on-disk size: 21879.5 KB)
+0643.703 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3800 files added (on-disk size: 21879.5 KB)
+0643.704 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3900 files added (on-disk size: 21879.5 KB)
+0643.705 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.6 MB, 4362 files batched, 1001 (2984) added so far); re-opening (prior size: 21879.5 KB)
+0660.811 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4000 files added (on-disk size: 25904.8 KB)
+0660.813 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4100 files added (on-disk size: 25904.8 KB)
+0660.814 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4200 files added (on-disk size: 25904.8 KB)
+0660.815 (2) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4300 files added (on-disk size: 25904.8 KB)
+0679.857 (2) Binary zip: error (code: 9 - look it up in the Diagnostics section of the zip manual at http://infozip.sourceforge.net/FAQ.html#error-codes for interpretation... and also check that your hosting account quota is not full)
+0679.860 (2) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/mailchimp.svg (exists: 1, is_readable: 1 size: 7136)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/map-marker.svg (exists: 1, is_readable: 1 size: 1550)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/nx.svg (exists: 1, is_readable: 1 size: 3536)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/play-btn.png (exists: 1, is_readable: 1 size: 863)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/recaptcha.svg (exists: 1, is_readable: 1 size: 2565)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/rx.svg (exists: 1, is_readable: 1 size: 3783)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/settings-save.gif (exists: 1, is_readable: 1 size: 39550)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/steps.svg (exists: 1, is_readable: 1 size: 6685)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/tool-1.svg (exists: 1, is_readable: 1 size: 4708)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/tool-2.svg (exists: 1, is_readable: 1 size: 1225)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/wscp.svg (exists: 1, is_readable: 1 size: 2389)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/youtube-promo.jpg (exists: 1, is_readable: 1 size: 225746)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/images/youtube-promo.png (exists: 1, is_readable: 1 size: 191419)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/js/admin.js (exists: 1, is_readable: 1 size: 15817)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/js/eael-templately-promo.js (exists: 1, is_readable: 1 size: 6828)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/vendor/sweetalert2/css/sweetalert2.min.css (exists: 1, is_readable: 1 size: 26848)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/vendor/sweetalert2/js/core.js (exists: 1, is_readable: 1 size: 237920)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/admin/vendor/sweetalert2/js/sweetalert2.min.js (exists: 1, is_readable: 1 size: 37356)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-edit/quill/quill.bubble.css (exists: 1, is_readable: 1 size: 24779)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-edit/quill/quill.bubble.min.css (exists: 1, is_readable: 1 size: 22513)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/calendar-main.css (exists: 1, is_readable: 1 size: 16593)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/calendar-main.min.css (exists: 1, is_readable: 1 size: 14701)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/daygrid.css (exists: 1, is_readable: 1 size: 1137)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/daygrid.min.css (exists: 1, is_readable: 1 size: 1006)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/listgrid.css (exists: 1, is_readable: 1 size: 1314)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/listgrid.min.css (exists: 1, is_readable: 1 size: 1114)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/timegrid.css (exists: 1, is_readable: 1 size: 3924)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/full-calendar/timegrid.min.css (exists: 1, is_readable: 1 size: 3416)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/magnific-popup/magnific-popup.css (exists: 1, is_readable: 1 size: 7386)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/magnific-popup/magnific-popup.min.css (exists: 1, is_readable: 1 size: 5653)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/plyr/plyr.css (exists: 1, is_readable: 1 size: 43154)
+0679.873 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/plyr/plyr.min.css (exists: 1, is_readable: 1 size: 38311)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/tooltipster/tooltipster.bundle.css (exists: 1, is_readable: 1 size: 7608)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/tooltipster/tooltipster.bundle.min.css (exists: 1, is_readable: 1 size: 6495)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-accordion.css (exists: 1, is_readable: 1 size: 4070)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-accordion.min.css (exists: 1, is_readable: 1 size: 3368)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-data-table.css (exists: 1, is_readable: 1 size: 3973)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-data-table.min.css (exists: 1, is_readable: 1 size: 3644)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-tabs.css (exists: 1, is_readable: 1 size: 5165)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/advanced-tabs.min.css (exists: 1, is_readable: 1 size: 4055)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/betterdocs-category-box.css (exists: 1, is_readable: 1 size: 11564)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/betterdocs-category-box.min.css (exists: 1, is_readable: 1 size: 9502)
+0679.874 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/betterdocs-category-grid.css (exists: 1, is_readable: 1 size: 13860)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/betterdocs-category-grid.min.css (exists: 1, is_readable: 1 size: 11571)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/caldera-form.css (exists: 1, is_readable: 1 size: 1307)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/caldera-form.min.css (exists: 1, is_readable: 1 size: 1186)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/call-to-action.css (exists: 1, is_readable: 1 size: 6633)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/call-to-action.min.css (exists: 1, is_readable: 1 size: 5242)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/contact-form-7.css (exists: 1, is_readable: 1 size: 3116)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/contact-form-7.min.css (exists: 1, is_readable: 1 size: 2800)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/content-ticker.css (exists: 1, is_readable: 1 size: 2236)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/content-ticker.min.css (exists: 1, is_readable: 1 size: 1840)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/count-down.css (exists: 1, is_readable: 1 size: 2047)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/count-down.min.css (exists: 1, is_readable: 1 size: 1738)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/creative-btn.css (exists: 1, is_readable: 1 size: 9961)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/creative-btn.min.css (exists: 1, is_readable: 1 size: 8501)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/data-table.css (exists: 1, is_readable: 1 size: 10060)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/data-table.min.css (exists: 1, is_readable: 1 size: 8252)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/dual-header.css (exists: 1, is_readable: 1 size: 2051)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/dual-header.min.css (exists: 1, is_readable: 1 size: 1716)
+0680.021 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/event-calendar.css (exists: 1, is_readable: 1 size: 13489)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/event-calendar.min.css (exists: 1, is_readable: 1 size: 11607)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/facebook-feed.css (exists: 1, is_readable: 1 size: 8954)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/facebook-feed.min.css (exists: 1, is_readable: 1 size: 7959)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/fancy-text.css (exists: 1, is_readable: 1 size: 820)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/fancy-text.min.css (exists: 1, is_readable: 1 size: 637)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/feature-list.css (exists: 1, is_readable: 1 size: 48226)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/feature-list.min.css (exists: 1, is_readable: 1 size: 45559)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/filterable-gallery.css (exists: 1, is_readable: 1 size: 29460)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/filterable-gallery.min.css (exists: 1, is_readable: 1 size: 24426)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/flip-box.css (exists: 1, is_readable: 1 size: 11719)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/flip-box.min.css (exists: 1, is_readable: 1 size: 10268)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/fluentform.css (exists: 1, is_readable: 1 size: 2396)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/fluentform.min.css (exists: 1, is_readable: 1 size: 2114)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/formstack.css (exists: 1, is_readable: 1 size: 2869)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/formstack.min.css (exists: 1, is_readable: 1 size: 2537)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.css (exists: 1, is_readable: 1 size: 3469)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css (exists: 1, is_readable: 1 size: 3097)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/gravity-form.css (exists: 1, is_readable: 1 size: 2494)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/gravity-form.min.css (exists: 1, is_readable: 1 size: 2249)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/image-accordion.css (exists: 1, is_readable: 1 size: 4239)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/image-accordion.min.css (exists: 1, is_readable: 1 size: 3455)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/info-box.css (exists: 1, is_readable: 1 size: 7905)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/info-box.min.css (exists: 1, is_readable: 1 size: 6640)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/interactive-circle.css (exists: 1, is_readable: 1 size: 82849)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/interactive-circle.min.css (exists: 1, is_readable: 1 size: 71785)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/load-more.css (exists: 1, is_readable: 1 size: 2229)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/load-more.min.css (exists: 1, is_readable: 1 size: 1830)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/login-register.css (exists: 1, is_readable: 1 size: 11707)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/login-register.min.css (exists: 1, is_readable: 1 size: 9659)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/ninja-form.css (exists: 1, is_readable: 1 size: 1757)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/ninja-form.min.css (exists: 1, is_readable: 1 size: 1605)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/post-grid.css (exists: 1, is_readable: 1 size: 17243)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/post-grid.min.css (exists: 1, is_readable: 1 size: 14208)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/post-timeline.css (exists: 1, is_readable: 1 size: 6921)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/post-timeline.min.css (exists: 1, is_readable: 1 size: 5593)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/price-table.css (exists: 1, is_readable: 1 size: 16608)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/price-table.min.css (exists: 1, is_readable: 1 size: 14154)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/product-grid.css (exists: 1, is_readable: 1 size: 81794)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/product-grid.min.css (exists: 1, is_readable: 1 size: 73266)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/progress-bar.css (exists: 1, is_readable: 1 size: 6824)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/progress-bar.min.css (exists: 1, is_readable: 1 size: 5727)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/quick-view.css (exists: 1, is_readable: 1 size: 15135)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/quick-view.min.css (exists: 1, is_readable: 1 size: 13071)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/quick-view.min.js (exists: 1, is_readable: 1 size: 2504)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/reading-progress.css (exists: 1, is_readable: 1 size: 932)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/reading-progress.min.css (exists: 1, is_readable: 1 size: 840)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/scroll-to-top.css (exists: 1, is_readable: 1 size: 390)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/scroll-to-top.min.css (exists: 1, is_readable: 1 size: 310)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/simple-menu.css (exists: 1, is_readable: 1 size: 18034)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/simple-menu.min.css (exists: 1, is_readable: 1 size: 15864)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/sticky-video.css (exists: 1, is_readable: 1 size: 3554)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/sticky-video.min.css (exists: 1, is_readable: 1 size: 2869)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/table-of-content.css (exists: 1, is_readable: 1 size: 5934)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/table-of-content.min.css (exists: 1, is_readable: 1 size: 4975)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/team-members.css (exists: 1, is_readable: 1 size: 3117)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/team-members.min.css (exists: 1, is_readable: 1 size: 2780)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/testimonials.css (exists: 1, is_readable: 1 size: 5991)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/testimonials.min.css (exists: 1, is_readable: 1 size: 5121)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/tooltip.css (exists: 1, is_readable: 1 size: 6281)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/tooltip.min.css (exists: 1, is_readable: 1 size: 4933)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/twitter-feed.css (exists: 1, is_readable: 1 size: 4311)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/twitter-feed.min.css (exists: 1, is_readable: 1 size: 3798)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/typeform.css (exists: 1, is_readable: 1 size: 369)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/typeform.min.css (exists: 1, is_readable: 1 size: 306)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/weforms.css (exists: 1, is_readable: 1 size: 1084)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/weforms.min.css (exists: 1, is_readable: 1 size: 1002)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-cart.css (exists: 1, is_readable: 1 size: 37262)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-cart.min.css (exists: 1, is_readable: 1 size: 34198)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-checkout.css (exists: 1, is_readable: 1 size: 25561)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-checkout.min.css (exists: 1, is_readable: 1 size: 23099)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-carousel.css (exists: 1, is_readable: 1 size: 45761)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-carousel.min.css (exists: 1, is_readable: 1 size: 40942)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-compare.css (exists: 1, is_readable: 1 size: 12419)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-compare.min.css (exists: 1, is_readable: 1 size: 11071)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-compare.min.js (exists: 1, is_readable: 1 size: 2511)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-gallery.css (exists: 1, is_readable: 1 size: 33748)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-gallery.min.css (exists: 1, is_readable: 1 size: 29121)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-gallery.min.js (exists: 1, is_readable: 1 size: 2513)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-slider.css (exists: 1, is_readable: 1 size: 69490)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/woo-product-slider.min.css (exists: 1, is_readable: 1 size: 30272)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/wpforms.css (exists: 1, is_readable: 1 size: 1330)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/wpforms.min.css (exists: 1, is_readable: 1 size: 1253)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/img/accordion.png (exists: 1, is_readable: 1 size: 6167)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/img/bg.jpg (exists: 1, is_readable: 1 size: 191262)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/img/flexia-preview.jpg (exists: 1, is_readable: 1 size: 24542)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/img/play-icon.png (exists: 1, is_readable: 1 size: 3842)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/advanced-data-table.js (exists: 1, is_readable: 1 size: 29734)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/advanced-data-table.min.js (exists: 1, is_readable: 1 size: 13474)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/betterdocs-category-grid.js (exists: 1, is_readable: 1 size: 4827)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/ea-select2.js (exists: 1, is_readable: 1 size: 4209)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/gravity-form.js (exists: 1, is_readable: 1 size: 4207)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/gravity-form.min.js (exists: 1, is_readable: 1 size: 1127)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/promotion.js (exists: 1, is_readable: 1 size: 5948)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/promotion.min.js (exists: 1, is_readable: 1 size: 2222)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/reading-progress.js (exists: 1, is_readable: 1 size: 4704)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/reading-progress.min.js (exists: 1, is_readable: 1 size: 1548)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/scroll-to-top.js (exists: 1, is_readable: 1 size: 4220)
+0680.022 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/scroll-to-top.min.js (exists: 1, is_readable: 1 size: 1148)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/table-of-content.js (exists: 1, is_readable: 1 size: 7362)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/edit/table-of-content.min.js (exists: 1, is_readable: 1 size: 3291)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-edit/quill/quill.js (exists: 1, is_readable: 1 size: 331812)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-edit/quill/quill.min.js (exists: 1, is_readable: 1 size: 215310)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/countdown/countdown.js (exists: 1, is_readable: 1 size: 7371)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/countdown/countdown.min.js (exists: 1, is_readable: 1 size: 3309)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/embed/embed.js (exists: 1, is_readable: 1 size: 146378)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/embed/embed.min.js (exists: 1, is_readable: 1 size: 143840)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/calendar-main.js (exists: 1, is_readable: 1 size: 373063)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/calendar-main.min.js (exists: 1, is_readable: 1 size: 127058)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/daygrid.js (exists: 1, is_readable: 1 size: 81857)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/daygrid.min.js (exists: 1, is_readable: 1 size: 28099)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/listgrid.js (exists: 1, is_readable: 1 size: 16485)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/listgrid.min.js (exists: 1, is_readable: 1 size: 6472)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/locales-all.js (exists: 1, is_readable: 1 size: 38672)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/locales-all.min.js (exists: 1, is_readable: 1 size: 18511)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/timegrid.js (exists: 1, is_readable: 1 size: 70870)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/full-calendar/timegrid.min.js (exists: 1, is_readable: 1 size: 25074)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/imagesloaded/imagesloaded.pkgd.js (exists: 1, is_readable: 1 size: 12549)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/imagesloaded/imagesloaded.pkgd.min.js (exists: 1, is_readable: 1 size: 5308)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/inview/inview.js (exists: 1, is_readable: 1 size: 5289)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/inview/inview.min.js (exists: 1, is_readable: 1 size: 1360)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/isotope/isotope.pkgd.js (exists: 1, is_readable: 1 size: 91066)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/isotope/isotope.pkgd.min.js (exists: 1, is_readable: 1 size: 34622)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/magnific-popup/jquery.magnific-popup.js (exists: 1, is_readable: 1 size: 60668)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/magnific-popup/jquery.magnific-popup.min.js (exists: 1, is_readable: 1 size: 19885)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/moment/moment.js (exists: 1, is_readable: 1 size: 537963)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/moment/moment.min.js (exists: 1, is_readable: 1 size: 365631)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/morphext/morphext.js (exists: 1, is_readable: 1 size: 1768)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/morphext/morphext.min.js (exists: 1, is_readable: 1 size: 977)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/plyr/plyr.js (exists: 1, is_readable: 1 size: 314223)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/plyr/plyr.min.js (exists: 1, is_readable: 1 size: 120058)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/tooltipster/tooltipster.bundle.js (exists: 1, is_readable: 1 size: 119604)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/tooltipster/tooltipster.bundle.min.js (exists: 1, is_readable: 1 size: 39875)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/typed/typed.js (exists: 1, is_readable: 1 size: 32621)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/typed/typed.min.js (exists: 1, is_readable: 1 size: 11506)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/typeform/embed.js (exists: 1, is_readable: 1 size: 146378)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/lib-view/typeform/embed.min.js (exists: 1, is_readable: 1 size: 143840)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-accordion.js (exists: 1, is_readable: 1 size: 6257)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-accordion.min.js (exists: 1, is_readable: 1 size: 2042)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-data-table.js (exists: 1, is_readable: 1 size: 18486)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-data-table.min.js (exists: 1, is_readable: 1 size: 7436)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-tabs.js (exists: 1, is_readable: 1 size: 8653)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/advanced-tabs.min.js (exists: 1, is_readable: 1 size: 3520)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/betterdocs-category-grid.js (exists: 1, is_readable: 1 size: 4919)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/betterdocs-category-grid.min.js (exists: 1, is_readable: 1 size: 1526)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/content-ticker.js (exists: 1, is_readable: 1 size: 8095)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/content-ticker.min.js (exists: 1, is_readable: 1 size: 2695)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/count-down.js (exists: 1, is_readable: 1 size: 5798)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/count-down.min.js (exists: 1, is_readable: 1 size: 1944)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/data-table.js (exists: 1, is_readable: 1 size: 6821)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/data-table.min.js (exists: 1, is_readable: 1 size: 2629)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/event-calendar.js (exists: 1, is_readable: 1 size: 11581)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/event-calendar.min.js (exists: 1, is_readable: 1 size: 5134)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/facebook-feed.js (exists: 1, is_readable: 1 size: 6173)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/facebook-feed.min.js (exists: 1, is_readable: 1 size: 2020)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/fancy-text.js (exists: 1, is_readable: 1 size: 6068)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/fancy-text.min.js (exists: 1, is_readable: 1 size: 2082)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/filterable-gallery.js (exists: 1, is_readable: 1 size: 16014)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/filterable-gallery.min.js (exists: 1, is_readable: 1 size: 6411)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.js (exists: 1, is_readable: 1 size: 46780)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js (exists: 1, is_readable: 1 size: 6380)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/image-accordion.js (exists: 1, is_readable: 1 size: 6276)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/image-accordion.min.js (exists: 1, is_readable: 1 size: 2553)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/interactive-circle.js (exists: 1, is_readable: 1 size: 5384)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/interactive-circle.min.js (exists: 1, is_readable: 1 size: 1615)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/load-more.js (exists: 1, is_readable: 1 size: 9340)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/load-more.min.js (exists: 1, is_readable: 1 size: 3702)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/login-register.js (exists: 1, is_readable: 1 size: 8120)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/login-register.min.js (exists: 1, is_readable: 1 size: 2842)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/post-grid.js (exists: 1, is_readable: 1 size: 4576)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/post-grid.min.js (exists: 1, is_readable: 1 size: 1309)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/price-table.js (exists: 1, is_readable: 1 size: 5367)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/price-table.min.js (exists: 1, is_readable: 1 size: 1616)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/product-grid.js (exists: 1, is_readable: 1 size: 12891)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/product-grid.min.js (exists: 1, is_readable: 1 size: 5235)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/progress-bar.js (exists: 1, is_readable: 1 size: 5696)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/progress-bar.min.js (exists: 1, is_readable: 1 size: 1888)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/quick-view.js (exists: 1, is_readable: 1 size: 11324)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/quick-view.min.js (exists: 1, is_readable: 1 size: 5306)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/reading-progress.js (exists: 1, is_readable: 1 size: 4397)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/reading-progress.min.js (exists: 1, is_readable: 1 size: 1215)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/scroll-to-top.js (exists: 1, is_readable: 1 size: 4619)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/scroll-to-top.min.js (exists: 1, is_readable: 1 size: 1326)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/simple-menu.js (exists: 1, is_readable: 1 size: 11066)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/simple-menu.min.js (exists: 1, is_readable: 1 size: 5494)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/sticky-video.js (exists: 1, is_readable: 1 size: 10799)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/sticky-video.min.js (exists: 1, is_readable: 1 size: 4494)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/table-of-content.js (exists: 1, is_readable: 1 size: 15916)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/table-of-content.min.js (exists: 1, is_readable: 1 size: 6045)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/twitter-feed.js (exists: 1, is_readable: 1 size: 4787)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/twitter-feed.min.js (exists: 1, is_readable: 1 size: 1481)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/typeform.js (exists: 1, is_readable: 1 size: 4659)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/typeform.min.js (exists: 1, is_readable: 1 size: 1355)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-cart.js (exists: 1, is_readable: 1 size: 5455)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-cart.min.js (exists: 1, is_readable: 1 size: 1829)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-checkout.js (exists: 1, is_readable: 1 size: 6250)
+0680.023 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-checkout.min.js (exists: 1, is_readable: 1 size: 2433)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-carousel.js (exists: 1, is_readable: 1 size: 10982)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-carousel.min.js (exists: 1, is_readable: 1 size: 4011)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-compare.min.js (exists: 1, is_readable: 1 size: 1090)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-gallery.js (exists: 1, is_readable: 1 size: 7684)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-gallery.min.js (exists: 1, is_readable: 1 size: 2883)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-slider.js (exists: 1, is_readable: 1 size: 7642)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/woo-product-slider.min.js (exists: 1, is_readable: 1 size: 1213)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/Bootstrap.php (exists: 1, is_readable: 1 size: 11324)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/Helper.php (exists: 1, is_readable: 1 size: 35467)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/Migration.php (exists: 1, is_readable: 1 size: 1552)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/Plugin_Usage_Tracker.php (exists: 1, is_readable: 1 size: 33747)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/WPDeveloper_Core_Installer.php (exists: 1, is_readable: 1 size: 3195)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/WPDeveloper_Notice.php (exists: 1, is_readable: 1 size: 37062)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/WPDeveloper_Plugin_Installer.php (exists: 1, is_readable: 1 size: 6090)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Classes/WPDeveloper_Setup_Wizard.php (exists: 1, is_readable: 1 size: 38879)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Controls/Select2.php (exists: 1, is_readable: 1 size: 2615)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Adv_Accordion.php (exists: 1, is_readable: 1 size: 48197)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Advanced_Data_Table.php (exists: 1, is_readable: 1 size: 64852)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Adv_Tabs.php (exists: 1, is_readable: 1 size: 41936)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Betterdocs_Category_Box.php (exists: 1, is_readable: 1 size: 48285)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Betterdocs_Category_Grid.php (exists: 1, is_readable: 1 size: 69295)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Betterdocs_Search_Form.php (exists: 1, is_readable: 1 size: 22039)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/BetterPayment.php (exists: 1, is_readable: 1 size: 1789)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Caldera_Forms.php (exists: 1, is_readable: 1 size: 59390)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Career_Page.php (exists: 1, is_readable: 1 size: 1749)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Contact_Form_7.php (exists: 1, is_readable: 1 size: 67785)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Content_Ticker.php (exists: 1, is_readable: 1 size: 32834)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Countdown.php (exists: 1, is_readable: 1 size: 48780)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Creative_Button.php (exists: 1, is_readable: 1 size: 29462)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Crowdfundly_All_Campaign.php (exists: 1, is_readable: 1 size: 1558)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Crowdfundly_Organization.php (exists: 1, is_readable: 1 size: 1566)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Crowdfundly_Single_Campaign.php (exists: 1, is_readable: 1 size: 1593)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Cta_Box.php (exists: 1, is_readable: 1 size: 44699)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Data_Table.php (exists: 1, is_readable: 1 size: 49045)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Dual_Color_Header.php (exists: 1, is_readable: 1 size: 31002)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/EmbedPress.php (exists: 1, is_readable: 1 size: 1830)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Event_Calendar.php (exists: 1, is_readable: 1 size: 77298)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Facebook_Feed.php (exists: 1, is_readable: 1 size: 49408)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Fancy_Text.php (exists: 1, is_readable: 1 size: 18406)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Feature_List.php (exists: 1, is_readable: 1 size: 45788)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Filterable_Gallery.php (exists: 1, is_readable: 1 size: 143212)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Flip_Box.php (exists: 1, is_readable: 1 size: 64566)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/FluentForm.php (exists: 1, is_readable: 1 size: 90107)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Formstack.php (exists: 1, is_readable: 1 size: 83032)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/GravityForms.php (exists: 1, is_readable: 1 size: 109200)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Image_Accordion.php (exists: 1, is_readable: 1 size: 26838)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Info_Box.php (exists: 1, is_readable: 1 size: 67468)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Interactive_Circle.php (exists: 1, is_readable: 1 size: 37029)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Login_Register.php (exists: 1, is_readable: 1 size: 161463)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/NinjaForms.php (exists: 1, is_readable: 1 size: 68617)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Post_Grid.php (exists: 1, is_readable: 1 size: 42489)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Post_Timeline.php (exists: 1, is_readable: 1 size: 18796)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Pricing_Table.php (exists: 1, is_readable: 1 size: 105911)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Product_Grid.php (exists: 1, is_readable: 1 size: 130080)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Progress_Bar.php (exists: 1, is_readable: 1 size: 36184)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Simple_Menu.php (exists: 1, is_readable: 1 size: 58113)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Sticky_Video.php (exists: 1, is_readable: 1 size: 30814)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Team_Member.php (exists: 1, is_readable: 1 size: 27978)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Testimonial.php (exists: 1, is_readable: 1 size: 25822)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Tooltip.php (exists: 1, is_readable: 1 size: 25723)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Twitter_Feed.php (exists: 1, is_readable: 1 size: 39050)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/TypeForm.php (exists: 1, is_readable: 1 size: 12879)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/WeForms.php (exists: 1, is_readable: 1 size: 33554)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woo_Cart.php (exists: 1, is_readable: 1 size: 90199)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woo_Checkout.php (exists: 1, is_readable: 1 size: 88785)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woocommerce_Review.php (exists: 1, is_readable: 1 size: 1838)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woo_Product_Carousel.php (exists: 1, is_readable: 1 size: 121426)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woo_Product_Compare.php (exists: 1, is_readable: 1 size: 2483)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/Woo_Product_Gallery.php (exists: 1, is_readable: 1 size: 87006)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Elements/WpForms.php (exists: 1, is_readable: 1 size: 61750)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Custom_JS.php (exists: 1, is_readable: 1 size: 2038)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Post_Duplicator.php (exists: 1, is_readable: 1 size: 4623)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Promotion.php (exists: 1, is_readable: 1 size: 5015)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Reading_Progress.php (exists: 1, is_readable: 1 size: 8634)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Scroll_to_Top.php (exists: 1, is_readable: 1 size: 17442)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Extensions/Table_of_Content.php (exists: 1, is_readable: 1 size: 43717)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Betterdocs-Category-Box/Layout_2.php (exists: 1, is_readable: 1 size: 1665)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Betterdocs-Category-Box/Layout_Default.php (exists: 1, is_readable: 1 size: 1791)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Betterdocs-Category-Grid/Layout_2.php (exists: 1, is_readable: 1 size: 8484)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Betterdocs-Category-Grid/Layout_Default.php (exists: 1, is_readable: 1 size: 10933)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Content/Product_Grid.php (exists: 1, is_readable: 1 size: 4157)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Content-Ticker/default.php (exists: 1, is_readable: 1 size: 910)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Eicon-Woocommerce/default.php (exists: 1, is_readable: 1 size: 27883)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Post-Grid/default.php (exists: 1, is_readable: 1 size: 18038)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Post-Timeline/default.php (exists: 1, is_readable: 1 size: 1928)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woo-Product-Carousel/preset-1.php (exists: 1, is_readable: 1 size: 5914)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woo-Product-Carousel/preset-2.php (exists: 1, is_readable: 1 size: 5799)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woo-Product-Carousel/preset-3.php (exists: 1, is_readable: 1 size: 5579)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woo-Product-Carousel/preset-4.php (exists: 1, is_readable: 1 size: 5916)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woo-Product-Gallery/default.php (exists: 1, is_readable: 1 size: 12226)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woocommerce/Cart/Woo_Cart_Helper.php (exists: 1, is_readable: 1 size: 31732)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woocommerce/Cart/Woo_Cart_Shortcode.php (exists: 1, is_readable: 1 size: 2851)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Template/Woocommerce/Checkout/Woo_Checkout_Helper.php (exists: 1, is_readable: 1 size: 34618)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Admin.php (exists: 1, is_readable: 1 size: 16955)
+0680.024 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Controls.php (exists: 1, is_readable: 1 size: 75669)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php (exists: 1, is_readable: 1 size: 18908)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Elements.php (exists: 1, is_readable: 1 size: 41261)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Enqueue.php (exists: 1, is_readable: 1 size: 13297)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Facebook_Feed.php (exists: 1, is_readable: 1 size: 12648)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Generator.php (exists: 1, is_readable: 1 size: 11821)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Helper.php (exists: 1, is_readable: 1 size: 45717)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Library.php (exists: 1, is_readable: 1 size: 9790)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Login_Registration.php (exists: 1, is_readable: 1 size: 26527)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Shared.php (exists: 1, is_readable: 1 size: 169)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Template_Query.php (exists: 1, is_readable: 1 size: 8138)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Twitter_Feed.php (exists: 1, is_readable: 1 size: 6915)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/Traits/Woo_Product_Comparable.php (exists: 1, is_readable: 1 size: 86145)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/elements.php (exists: 1, is_readable: 1 size: 30539)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/extensions.php (exists: 1, is_readable: 1 size: 8002)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/general.php (exists: 1, is_readable: 1 size: 8029)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/go-pro.php (exists: 1, is_readable: 1 size: 10249)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/integrations.php (exists: 1, is_readable: 1 size: 5104)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/popup.php (exists: 1, is_readable: 1 size: 11705)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/includes/templates/admin/tools.php (exists: 1, is_readable: 1 size: 5063)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/languages/essential-addons-for-elementor-lite.pot (exists: 1, is_readable: 1 size: 415696)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/autoload.php (exists: 1, is_readable: 1 size: 865)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/config.php (exists: 1, is_readable: 1 size: 44426)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/essential_adons_elementor.php (exists: 1, is_readable: 1 size: 2812)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/readme.txt (exists: 1, is_readable: 1 size: 62693)
+0680.025 (2) File: plugins/essential-addons-for-elementor-lite/wpml-config.xml (exists: 1, is_readable: 1 size: 26804)
+0680.025 (2) Error: makezip_addfiles returned false
+0680.025 (2) makezip_addfiles(UpdraftPlus_BinZip) apparently failed (file=backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp, type=plugins, size=26526529) - retrying with PclZip
+0995.119 (3) Opened log file at time: Mon, 07 Feb 2022 20:38:13 +0000 on https://agvoy.go.yj.fr
+0995.120 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0995.120 (3) Free space on disk containing Updraft's temporary directory: 2049689.6 MB
+0995.123 (3) Requesting backup semaphore lock (d8b87c363061)
+0995.123 (3) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+0995.124 (3) Backup run: resumption=3, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (996s ago), job type=backup, previous check-in=73.76s
+0995.125 (3) Scheduling a resumption (4) after 300 seconds (1644266593) in case this run gets aborted
+0995.358 (3) Checking if we have a zip executable available
+0995.358 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0995.358 (3) Creation of backups of directories: had begun; will resume
+0995.391 (3) Beginning creation of dump of plugins (split every: 400 MB)
+0995.391 (3) Deleting old temporary file: ziZ6UpVV
+0995.392 (3) File exists (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1644265958, time_now=1644266293, diff=335)
+0996.222 (3) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.list-temp.tmp)
+0996.456 (3) Successfully created zip file manifest (size: 331328)
+0996.457 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: Zip file already exists, with 3985 files
+0996.514 (3) Total entities for the zip file: 899 directories, 4362 files (0 skipped as non-modified), 86.4 MB
+0996.515 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 100 files added (on-disk size: 25904.8 KB)
+0996.516 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 200 files added (on-disk size: 25904.8 KB)
+0996.516 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 300 files added (on-disk size: 25904.8 KB)
+0996.517 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 400 files added (on-disk size: 25904.8 KB)
+0996.517 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 500 files added (on-disk size: 25904.8 KB)
+0996.518 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 600 files added (on-disk size: 25904.8 KB)
+0996.518 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 700 files added (on-disk size: 25904.8 KB)
+0996.519 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 800 files added (on-disk size: 25904.8 KB)
+0996.519 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 900 files added (on-disk size: 25904.8 KB)
+0996.520 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1000 files added (on-disk size: 25904.8 KB)
+0996.521 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1100 files added (on-disk size: 25904.8 KB)
+0996.521 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1200 files added (on-disk size: 25904.8 KB)
+0996.522 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1300 files added (on-disk size: 25904.8 KB)
+0996.522 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1400 files added (on-disk size: 25904.8 KB)
+0996.523 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1500 files added (on-disk size: 25904.8 KB)
+0996.523 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1600 files added (on-disk size: 25904.8 KB)
+0996.524 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1700 files added (on-disk size: 25904.8 KB)
+0996.524 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1800 files added (on-disk size: 25904.8 KB)
+0996.525 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 1900 files added (on-disk size: 25904.8 KB)
+0996.525 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2000 files added (on-disk size: 25904.8 KB)
+0996.526 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2100 files added (on-disk size: 25904.8 KB)
+0996.526 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2200 files added (on-disk size: 25904.8 KB)
+0996.527 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2300 files added (on-disk size: 25904.8 KB)
+0996.527 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2400 files added (on-disk size: 25904.8 KB)
+0996.528 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2500 files added (on-disk size: 25904.8 KB)
+0996.528 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2600 files added (on-disk size: 25904.8 KB)
+0996.529 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2700 files added (on-disk size: 25904.8 KB)
+0996.529 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2800 files added (on-disk size: 25904.8 KB)
+0996.530 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 2900 files added (on-disk size: 25904.8 KB)
+0996.530 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3000 files added (on-disk size: 25904.8 KB)
+0996.531 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3100 files added (on-disk size: 25904.8 KB)
+0996.531 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3200 files added (on-disk size: 25904.8 KB)
+0996.532 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3300 files added (on-disk size: 25904.8 KB)
+0996.532 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3400 files added (on-disk size: 25904.8 KB)
+0996.533 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3500 files added (on-disk size: 25904.8 KB)
+0996.533 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3600 files added (on-disk size: 25904.8 KB)
+0996.534 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3700 files added (on-disk size: 25904.8 KB)
+0996.534 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3800 files added (on-disk size: 25904.8 KB)
+0996.534 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 3900 files added (on-disk size: 25904.8 KB)
+0996.535 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4000 files added (on-disk size: 25904.8 KB)
+0996.536 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4100 files added (on-disk size: 25904.8 KB)
+0996.538 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4200 files added (on-disk size: 25904.8 KB)
+0996.539 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip.tmp: 4300 files added (on-disk size: 25904.8 KB)
+1055.827 (3) Created plugins zip (0) - 28434.1 KB in 60.4 s (470.5 KB/s) (sha1: 1c82b8435db72a82a469cb83f68625a0344acbcc, sha256: 85f08175a565a229a0b454d5d0e0bb1e222ccec904f5db9d42042676eeb62e89)
+1055.828 (3) Deleting old temporary file: ziak7fWi
+1055.829 (3) Beginning creation of dump of themes (split every: 400 MB)
+1055.896 (3) Total entities for the zip file: 391 directories, 1116 files (0 skipped as non-modified), 31.7 MB
+1055.898 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+1055.899 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+1055.900 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+1055.901 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+1055.902 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+1055.904 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+1055.905 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+1055.906 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+1055.907 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+1055.908 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 29.6 MB added on this batch (29.7 MB, 1116 files batched, 943 (943) added so far); re-opening (prior size: 0 KB)
+1074.429 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: size is now: 12.40 MB
+1074.430 (3) A useful amount of data was added after this amount of zip processing: 19.3 s (normalised: 19.3 s, rate: 1571.3 KB/s)
+1074.431 (3) Performance is good - will increase the amount of data we attempt to batch (time=19.339106082916, normalised_time=19.310813307939, max_time=74, data points known=3, old_max_bytes=31071730, new_max_bytes=71441051)
+1074.432 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 1000 files added (on-disk size: 12723.8 KB)
+1074.434 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.tmp: 1100 files added (on-disk size: 12723.8 KB)
+1079.506 (3) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.list-temp.tmp)
+1079.508 (3) Successfully created zip file manifest (size: 88448)
+1079.714 (3) Created themes zip (0) - 14138.6 KB in 23.9 s (592 KB/s) (sha1: d920662c05b0e51f1c6af64101254fc605c5c6d1, sha256: eef028dbe0b7dde7bfbb28d83d50cf2c09543ad3949bab1ab4d6d1ebee806bc4)
+1079.715 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1079.715 (3) Looking for candidates to backup in: /home/rfseggdz/public_html/wp-content/uploads
+1079.716 (3) finding files: 2021: adding to list (1)
+1079.716 (3) finding files: astra-sites: adding to list (2)
+1079.716 (3) finding files: essential-addons-elementor: adding to list (3)
+1079.716 (3) finding files: elementor: adding to list (4)
+1079.717 (3) finding files: wpforms: adding to list (5)
+1079.717 (3) finding files: 2022: adding to list (6)
+1079.717 (3) Beginning creation of dump of uploads (split every: 400 MB)
+1079.720 (3) Total entities for the zip file: 12 directories, 122 files (0 skipped as non-modified), 9.4 MB
+1079.721 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+1085.191 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip.tmp: size is now: 8.40 MB
+1085.193 (3) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip.list-temp.tmp)
+1085.194 (3) Successfully created zip file manifest (size: 7988)
+1085.307 (3) Created uploads zip (0) - 8578.8 KB in 5.6 s (1534.8 KB/s) (sha1: d7f54020df6ef9ce7267a63093ecc1ed8d49631d, sha256: 3fdc22ffeb92ccc2b49f1c2228ba556fd36e771338b306fd4cc47107e847dde5)
+1085.308 (3) Beginning backup of other directories found in the content directory (index: 0)
+1085.309 (3) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1085.309 (3) Looking for candidates to backup in: /home/rfseggdz/public_html/wp-content
+1085.309 (3) finding files: plugins: skipping: this is the plugins directory
+1085.309 (3) finding files: themes: skipping: this is the themes directory
+1085.310 (3) finding files: languages: adding to list (1)
+1085.310 (3) finding files: index.php: adding to list (2)
+1085.310 (3) finding files: uploads: skipping: this is the uploads directory
+1085.310 (3) finding files: upgrade: skipping: excluded by options
+1085.311 (3) finding files: ai1wm-backups: skipping: excluded by options (glob)
+1085.311 (3) finding files: updraft: skipping: this is the updraft directory
+1085.313 (3) Total entities for the zip file: 3 directories, 105 files (0 skipped as non-modified), 4.6 MB
+1085.314 (3) Zip: backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+1085.722 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip.tmp: size is now: 1.30 MB
+1085.724 (3) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip.list-temp.tmp)
+1085.724 (3) Successfully created zip file manifest (size: 6480)
+1085.736 (3) Created others zip (0) - 1323.2 KB in 0.4 s (3120.4 KB/s) (sha1: f34f02f7bfa2f274bc1c621d1d6dedba5e7a206c, sha256: 3ed68c56e397b171ddf1c9046da7d08772c5ede562639e13e047776cffbd537f)
+1085.737 (3) Saving backup status to database (elements: 8)
+1085.740 (3) Resuming creation of database dump (WordPress DB)
+1085.740 (3) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1085.741 (3) Testing potential mysqldump binary: /usr/bin/mysqldump
+1085.760 (3) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1523 bytes total)
+1085.760 (3) Working binary mysqldump found: /usr/bin/mysqldump
+1085.765 (3) Table wp_options: Total expected rows (via COUNT): 399
+1085.766 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.919 (3) Table wp_options: Rows added in this batch (next record: 3806): 395 (uncompressed bytes in this segment=4814623) in 0.16 seconds
+1085.921 (3) Table wp_options: finishing file(s) (2, 422.4 KB)
+1085.922 (3) Table wp_users: Total expected rows (via COUNT): 2
+1085.923 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.924 (3) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1487) in 0.00 seconds
+1085.925 (3) Table wp_users: finishing file(s) (2, 0.6 KB)
+1085.927 (3) Table wp_usermeta: Total expected rows (via COUNT): 45
+1085.928 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.929 (3) Table wp_usermeta: Rows added in this batch (next record: 46): 45 (uncompressed bytes in this segment=3324) in 0.00 seconds
+1085.931 (3) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+1085.933 (3) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 47
+1085.933 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.934 (3) Table wp_actionscheduler_actions: Rows added in this batch (next record: 816): 47 (uncompressed bytes in this segment=21513) in 0.00 seconds
+1085.936 (3) Table wp_actionscheduler_actions: finishing file(s) (2, 2.2 KB)
+1085.938 (3) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+1085.938 (3) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+1085.940 (3) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1085.941 (3) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+1085.942 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.943 (3) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.00 seconds
+1085.944 (3) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1085.945 (3) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 131
+1085.946 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.947 (3) Table wp_actionscheduler_logs: Rows added in this batch (next record: 191): 131 (uncompressed bytes in this segment=11994) in 0.00 seconds
+1085.949 (3) Table wp_actionscheduler_logs: finishing file(s) (2, 1.7 KB)
+1085.951 (3) Table wp_commentmeta: Total expected rows (via COUNT): 0
+1085.951 (3) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+1085.953 (3) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+1085.955 (3) Table wp_comments: Total expected rows (via COUNT): 2
+1085.955 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1085.956 (3) Table wp_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2665) in 0.00 seconds
+1085.958 (3) Table wp_comments: finishing file(s) (2, 0.8 KB)
+1085.993 (3) Table wp_links: Total expected rows (via COUNT): 0
+1085.994 (3) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+1085.996 (3) Table wp_links: finishing file(s) (2, 0.5 KB)
+1085.999 (3) Table wp_postmeta: Total expected rows (approximate): 2144
+1086.030 (3) Table wp_postmeta: Rows added in this batch (next record: 3173): 2144 (uncompressed bytes in this segment=1691720) in 0.03 seconds
+1086.032 (3) Table wp_postmeta: finishing file(s) (2, 81.3 KB)
+1086.035 (3) Table wp_posts: Total expected rows (via COUNT): 316
+1086.035 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1086.099 (3) Table wp_posts: Rows added in this batch (next record: 1050): 316 (uncompressed bytes in this segment=2826448) in 0.07 seconds
+1086.101 (3) Table wp_posts: finishing file(s) (2, 65.2 KB)
+1086.103 (3) Table wp_term_relationships: Total expected rows (approximate): 29
+1086.104 (3) Table wp_term_relationships: Rows added in this batch (next record: 100000): 29 (uncompressed bytes in this segment=1087) in 0.00 seconds
+1086.105 (3) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+1086.107 (3) Table wp_term_taxonomy: Total expected rows (via COUNT): 16
+1086.107 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1086.108 (3) Table wp_term_taxonomy: Rows added in this batch (next record: 18): 16 (uncompressed bytes in this segment=1456) in 0.00 seconds
+1086.110 (3) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+1086.112 (3) Table wp_termmeta: Total expected rows (via COUNT): 0
+1086.113 (3) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+1086.114 (3) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+1086.116 (3) Table wp_terms: Total expected rows (via COUNT): 16
+1086.116 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1086.117 (3) Table wp_terms: Rows added in this batch (next record: 18): 16 (uncompressed bytes in this segment=1313) in 0.00 seconds
+1086.118 (3) Table wp_terms: finishing file(s) (2, 0.6 KB)
+1086.119 (3) Skipping table (lacks our prefix (wp_)): noc_autologin
+1086.121 (3) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 23
+1086.121 (3) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1086.122 (3) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2460) in 0.00 seconds
+1086.124 (3) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.7 KB)
+1086.125 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_options.table.tmpr3807.gz (1/18/fopen): adding to final database dump
+1086.128 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_options.table.gz (2/18/fopen): adding to final database dump
+1086.128 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_users.table.tmpr3.gz (3/18/fopen): adding to final database dump
+1086.129 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_users.table.gz (4/18/fopen): adding to final database dump
+1086.129 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_usermeta.table.tmpr47.gz (5/18/fopen): adding to final database dump
+1086.129 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_usermeta.table.gz (6/18/fopen): adding to final database dump
+1086.130 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_actions.table.tmpr817.gz (7/18/fopen): adding to final database dump
+1086.130 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_actions.table.gz (8/18/fopen): adding to final database dump
+1086.130 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/18/fopen): adding to final database dump
+1086.130 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_claims.table.gz (10/18/fopen): adding to final database dump
+1086.131 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/18/fopen): adding to final database dump
+1086.131 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_groups.table.gz (12/18/fopen): adding to final database dump
+1086.131 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_logs.table.tmpr192.gz (13/18/fopen): adding to final database dump
+1086.131 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_actionscheduler_logs.table.gz (14/18/fopen): adding to final database dump
+1086.132 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_commentmeta.table.tmpr0.gz (15/18/fopen): adding to final database dump
+1086.132 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_commentmeta.table.gz (16/18/fopen): adding to final database dump
+1086.132 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_comments.table.tmpr3.gz (17/18/fopen): adding to final database dump
+1086.133 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_comments.table.gz (18/18/fopen): adding to final database dump
+1086.133 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_links.table.tmpr0.gz (19/18/fopen): adding to final database dump
+1086.133 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_links.table.gz (20/18/fopen): adding to final database dump
+1086.134 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_postmeta.table.tmpr3174.gz (21/18/fopen): adding to final database dump
+1086.135 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_postmeta.table.gz (22/18/fopen): adding to final database dump
+1086.135 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_posts.table.tmpr1051.gz (23/18/fopen): adding to final database dump
+1086.136 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_posts.table.gz (24/18/fopen): adding to final database dump
+1086.136 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_term_relationships.table.tmpr100001.gz (25/18/fopen): adding to final database dump
+1086.136 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_term_relationships.table.gz (26/18/fopen): adding to final database dump
+1086.136 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_term_taxonomy.table.tmpr19.gz (27/18/fopen): adding to final database dump
+1086.137 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_term_taxonomy.table.gz (28/18/fopen): adding to final database dump
+1086.137 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_termmeta.table.tmpr0.gz (29/18/fopen): adding to final database dump
+1086.137 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_termmeta.table.gz (30/18/fopen): adding to final database dump
+1086.137 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_terms.table.tmpr19.gz (31/18/fopen): adding to final database dump
+1086.138 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_terms.table.gz (32/18/fopen): adding to final database dump
+1086.138 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_wpforms_tasks_meta.table.tmpr24.gz (33/18/fopen): adding to final database dump
+1086.138 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db-table-wp_wpforms_tasks_meta.table.gz (34/18/fopen): adding to final database dump
+1086.140 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: finished writing out complete database file (580.5 KB)
+1086.146 (3) Total database tables backed up: 17 (backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz, size: 594582, sha1: 36e7f99c81ea8ade92310834f868451391a1c0e8, sha256: e4795572fdfe7104c9914dbb591cf3d9bda7dee73df034361e3f1d54e0c1054e)
+1086.148 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1086.148 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1086.149 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1086.149 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has not yet been successfully uploaded: will queue
+1086.149 (3) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has not yet been successfully uploaded: will queue
+1086.149 (3) Saving backup history. Total backup size: 51.8 MB
+1086.150 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1086.151 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+1086.152 (3) Beginning dispatch of backup to remote (email)
+1086.152 (3) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1086.153 (3) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+1091.809 (3) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1091.809 (3) Email: Mails were not sent successfully
+1091.810 (3) An error condition has occurred for the first time during this job
+1091.810 (3) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: email to: lunel...
+1097.316 (3) Recording as successfully uploaded: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip
+1097.319 (3) Deleting local file: backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: OK
+1097.319 (3) Deleting zip manifest (backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip.list.tmp)
+1097.319 (3) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: email to: lunel...
+1102.590 (3) Recording as successfully uploaded: backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip
+1102.593 (3) Deleting local file: backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: OK
+1102.593 (3) Deleting zip manifest (backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip.list.tmp)
+1102.594 (3) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: email to: lunel...
+1102.721 (3) Recording as successfully uploaded: backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip
+1102.722 (3) Deleting local file: backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: OK
+1102.722 (3) Deleting zip manifest (backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip.list.tmp)
+1102.723 (3) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: email to: lunel...
+1102.837 (3) Recording as successfully uploaded: backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz
+1102.839 (3) Deleting local file: backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: OK
+1102.839 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1102.840 (3) Number of backup sets in history: 3; groups (db): 1
+1102.840 (3) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1102.840 (3) This backup set is the backup set just made, so will not be deleted.
+1102.840 (3) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1102.840 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1102.841 (3) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1102.841 (3) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1102.841 (3) Number of backup sets in history: 3; groups (files): 1
+1102.841 (3) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1102.841 (3) This backup set is the backup set just made, so will not be deleted.
+1102.841 (3) This backup set is the backup set just made, so will not be deleted.
+1102.841 (3) This backup set is the backup set just made, so will not be deleted.
+1102.841 (3) This backup set is the backup set just made, so will not be deleted.
+1102.841 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1102.842 (3) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1102.842 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1102.842 (3) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1102.842 (3) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1102.842 (3) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1102.842 (3) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1102.842 (3) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1102.842 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1102.842 (3) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1102.843 (3) Resume backup (d8b87c363061, 3): finish run
+1102.843 (3) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+1102.844 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1102.844 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1302.221 (4) Opened log file at time: Mon, 07 Feb 2022 20:43:20 +0000 on https://agvoy.go.yj.fr
+1302.222 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.8M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1302.222 (4) Free space on disk containing Updraft's temporary directory: 2049721.8 MB
+1302.225 (4) Requesting backup semaphore lock (d8b87c363061)
+1302.225 (4) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+1302.226 (4) Backup run: resumption=4, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (1303s ago), job type=backup, previous check-in=91s
+1302.226 (4) Scheduling a resumption (5) after 300 seconds (1644266900) in case this run gets aborted
+1302.464 (4) Checking if we have a zip executable available
+1302.464 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1302.464 (4) Creation of backups of directories: already finished
+1302.495 (4) Saving backup status to database (elements: 8)
+1302.505 (4) Database dump (WordPress DB): Creation was completed already
+1302.505 (4) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1302.506 (4) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1302.507 (4) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+1302.507 (4) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+1302.507 (4) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+1302.507 (4) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+1302.508 (4) Saving backup history. Total backup size: Unknown
+1302.509 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1302.509 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1302.509 (4) Beginning dispatch of backup to remote (email)
+1302.510 (4) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1302.511 (4) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+1336.933 (4) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1336.934 (4) Email: Mails were not sent successfully
+1336.934 (4) An error condition has occurred for the first time during this job
+1336.935 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1336.935 (4) Number of backup sets in history: 3; groups (db): 1
+1336.936 (4) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1336.936 (4) This backup set is the backup set just made, so will not be deleted.
+1336.936 (4) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1336.936 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1336.936 (4) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1336.936 (4) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1336.936 (4) Number of backup sets in history: 3; groups (files): 1
+1336.937 (4) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1336.937 (4) This backup set is the backup set just made, so will not be deleted.
+1336.937 (4) This backup set is the backup set just made, so will not be deleted.
+1336.937 (4) This backup set is the backup set just made, so will not be deleted.
+1336.937 (4) This backup set is the backup set just made, so will not be deleted.
+1336.937 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1336.937 (4) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1336.937 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1336.937 (4) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1336.937 (4) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1336.937 (4) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1336.937 (4) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1336.937 (4) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1336.937 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1336.937 (4) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1336.939 (4) Resume backup (d8b87c363061, 4): finish run
+1336.939 (4) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+1336.939 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1336.940 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1611.914 (5) Opened log file at time: Mon, 07 Feb 2022 20:48:29 +0000 on https://agvoy.go.yj.fr
+1611.915 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.8M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1611.915 (5) Free space on disk containing Updraft's temporary directory: 2049721.7 MB
+1611.915 (5) Requesting backup semaphore lock (d8b87c363061)
+1611.916 (5) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+1611.916 (5) Backup run: resumption=5, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (1612s ago), job type=backup
+1611.917 (5) Scheduling a resumption (6) after 300 seconds (1644267209) in case this run gets aborted
+1611.924 (5) Checking if we have a zip executable available
+1611.924 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1611.924 (5) Creation of backups of directories: already finished
+1611.924 (5) Saving backup status to database (elements: 8)
+1611.926 (5) Database dump (WordPress DB): Creation was completed already
+1611.926 (5) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1611.927 (5) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1611.928 (5) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+1611.928 (5) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+1611.928 (5) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+1611.929 (5) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+1611.929 (5) Saving backup history. Total backup size: Unknown
+1611.930 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1611.930 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+1611.931 (5) Beginning dispatch of backup to remote (email)
+1611.931 (5) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1611.931 (5) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+1617.615 (5) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1617.615 (5) Email: Mails were not sent successfully
+1617.616 (5) An error condition has occurred for the first time during this job
+1617.616 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1617.617 (5) Number of backup sets in history: 3; groups (db): 1
+1617.617 (5) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1617.617 (5) This backup set is the backup set just made, so will not be deleted.
+1617.618 (5) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1617.618 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1617.618 (5) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1617.618 (5) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1617.618 (5) Number of backup sets in history: 3; groups (files): 1
+1617.618 (5) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1617.618 (5) This backup set is the backup set just made, so will not be deleted.
+1617.618 (5) This backup set is the backup set just made, so will not be deleted.
+1617.618 (5) This backup set is the backup set just made, so will not be deleted.
+1617.618 (5) This backup set is the backup set just made, so will not be deleted.
+1617.618 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1617.619 (5) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1617.619 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1617.619 (5) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1617.619 (5) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1617.619 (5) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1617.619 (5) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1617.619 (5) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1617.619 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1617.619 (5) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1617.620 (5) Resume backup (d8b87c363061, 5): finish run
+1617.620 (5) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+1617.621 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1617.622 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1918.914 (6) Opened log file at time: Mon, 07 Feb 2022 20:53:36 +0000 on https://agvoy.go.yj.fr
+1918.915 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1918.915 (6) Free space on disk containing Updraft's temporary directory: 2049721.8 MB
+1918.925 (6) Requesting backup semaphore lock (d8b87c363061)
+1918.925 (6) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+1918.926 (6) Backup run: resumption=6, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (1919s ago), job type=backup
+1918.927 (6) Scheduling a resumption (7) after 300 seconds (1644267516) in case this run gets aborted
+1918.943 (6) Checking if we have a zip executable available
+1918.943 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+1918.943 (6) Creation of backups of directories: already finished
+1918.943 (6) Saving backup status to database (elements: 8)
+1918.945 (6) Database dump (WordPress DB): Creation was completed already
+1918.945 (6) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1918.947 (6) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1918.947 (6) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+1918.947 (6) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+1918.947 (6) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+1918.948 (6) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+1918.948 (6) Saving backup history. Total backup size: Unknown
+1918.949 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1918.949 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+1918.950 (6) Beginning dispatch of backup to remote (email)
+1918.950 (6) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1918.950 (6) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+1930.100 (6) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1930.101 (6) Email: Mails were not sent successfully
+1930.102 (6) An error condition has occurred for the first time during this job
+1930.103 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1930.103 (6) Number of backup sets in history: 3; groups (db): 1
+1930.103 (6) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1930.104 (6) This backup set is the backup set just made, so will not be deleted.
+1930.104 (6) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1930.104 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1930.104 (6) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1930.104 (6) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1930.104 (6) Number of backup sets in history: 3; groups (files): 1
+1930.104 (6) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+1930.104 (6) This backup set is the backup set just made, so will not be deleted.
+1930.105 (6) This backup set is the backup set just made, so will not be deleted.
+1930.105 (6) This backup set is the backup set just made, so will not be deleted.
+1930.105 (6) This backup set is the backup set just made, so will not be deleted.
+1930.105 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1930.105 (6) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1930.105 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1930.105 (6) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1930.105 (6) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1930.105 (6) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1930.105 (6) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1930.105 (6) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+1930.105 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1930.105 (6) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1930.106 (6) Resume backup (d8b87c363061, 6): finish run
+1930.106 (6) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+1930.107 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1930.108 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2219.027 (7) Opened log file at time: Mon, 07 Feb 2022 20:58:36 +0000 on https://agvoy.go.yj.fr
+2219.028 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2219.029 (7) Free space on disk containing Updraft's temporary directory: 2049721.7 MB
+2219.029 (7) Requesting backup semaphore lock (d8b87c363061)
+2219.029 (7) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+2219.030 (7) Backup run: resumption=7, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (2219s ago), job type=backup
+2219.031 (7) Scheduling a resumption (8) after 300 seconds (1644267816) in case this run gets aborted
+2219.037 (7) Checking if we have a zip executable available
+2219.037 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2219.038 (7) Creation of backups of directories: already finished
+2219.038 (7) Saving backup status to database (elements: 8)
+2219.040 (7) Database dump (WordPress DB): Creation was completed already
+2219.040 (7) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2219.041 (7) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2219.041 (7) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+2219.042 (7) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+2219.042 (7) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+2219.042 (7) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+2219.043 (7) Saving backup history. Total backup size: Unknown
+2219.043 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+2219.044 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+2219.044 (7) Beginning dispatch of backup to remote (email)
+2219.045 (7) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+2219.045 (7) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+2220.840 (7) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+2220.841 (7) Email: Mails were not sent successfully
+2220.841 (7) An error condition has occurred for the first time during this job
+2220.842 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2220.843 (7) Number of backup sets in history: 3; groups (db): 1
+2220.843 (7) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2220.843 (7) This backup set is the backup set just made, so will not be deleted.
+2220.843 (7) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2220.843 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2220.844 (7) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2220.844 (7) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2220.844 (7) Number of backup sets in history: 3; groups (files): 1
+2220.844 (7) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2220.844 (7) This backup set is the backup set just made, so will not be deleted.
+2220.844 (7) This backup set is the backup set just made, so will not be deleted.
+2220.844 (7) This backup set is the backup set just made, so will not be deleted.
+2220.844 (7) This backup set is the backup set just made, so will not be deleted.
+2220.844 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2220.844 (7) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2220.844 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2220.845 (7) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2220.845 (7) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2220.845 (7) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2220.845 (7) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2220.845 (7) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2220.845 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2220.845 (7) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2220.846 (7) Resume backup (d8b87c363061, 7): finish run
+2220.846 (7) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+2220.846 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2220.847 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2518.937 (8) Opened log file at time: Mon, 07 Feb 2022 21:03:36 +0000 on https://agvoy.go.yj.fr
+2518.938 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2518.938 (8) Free space on disk containing Updraft's temporary directory: 2049721.8 MB
+2518.939 (8) Requesting backup semaphore lock (d8b87c363061)
+2518.939 (8) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+2518.940 (8) Backup run: resumption=8, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (2519s ago), job type=backup
+2518.941 (8) Scheduling a resumption (9) after 300 seconds (1644268116) in case this run gets aborted
+2518.994 (8) Checking if we have a zip executable available
+2518.995 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2518.995 (8) Creation of backups of directories: already finished
+2518.995 (8) Saving backup status to database (elements: 8)
+2518.997 (8) Database dump (WordPress DB): Creation was completed already
+2518.997 (8) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2518.998 (8) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2518.998 (8) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+2518.999 (8) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+2518.999 (8) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+2518.999 (8) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+2518.999 (8) Saving backup history. Total backup size: Unknown
+2519.000 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+2519.001 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+2519.001 (8) Beginning dispatch of backup to remote (email)
+2519.002 (8) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+2519.002 (8) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+2524.697 (8) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+2524.698 (8) Email: Mails were not sent successfully
+2524.698 (8) An error condition has occurred for the first time during this job
+2524.699 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2524.700 (8) Number of backup sets in history: 3; groups (db): 1
+2524.700 (8) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2524.700 (8) This backup set is the backup set just made, so will not be deleted.
+2524.700 (8) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2524.700 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2524.701 (8) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2524.701 (8) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2524.701 (8) Number of backup sets in history: 3; groups (files): 1
+2524.701 (8) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2524.701 (8) This backup set is the backup set just made, so will not be deleted.
+2524.701 (8) This backup set is the backup set just made, so will not be deleted.
+2524.701 (8) This backup set is the backup set just made, so will not be deleted.
+2524.701 (8) This backup set is the backup set just made, so will not be deleted.
+2524.701 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2524.702 (8) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2524.702 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2524.702 (8) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2524.702 (8) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2524.702 (8) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2524.702 (8) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2524.702 (8) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2524.702 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2524.702 (8) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2524.703 (8) Resume backup (d8b87c363061, 8): finish run
+2524.703 (8) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+2524.704 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2524.705 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2850.909 (9) Opened log file at time: Mon, 07 Feb 2022 21:09:08 +0000 on https://agvoy.go.yj.fr
+2850.910 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.6M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2850.911 (9) Free space on disk containing Updraft's temporary directory: 2049710.9 MB
+2850.911 (9) Requesting backup semaphore lock (d8b87c363061)
+2850.911 (9) [Info] Lock (updraft_lock_d8b87c363061, wp_options) acquired
+2850.912 (9) Backup run: resumption=9, nonce=d8b87c363061, file_nonce=d8b87c363061 begun at=1644265297 (2851s ago), job type=backup
+2850.913 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 3) - will not schedule a further attempt until we see something useful happening this time
+2850.914 (9) Scheduling a resumption (10) after 300 seconds (1644268448); but the job will then be aborted unless something happens this time
+2851.023 (9) Creation of backups of directories: already finished
+2851.055 (9) Saving backup status to database (elements: 8)
+2851.057 (9) Database dump (WordPress DB): Creation was completed already
+2851.057 (9) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2851.058 (9) backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2851.059 (9) backup_2022-02-07-2121_PhotoCC_d8b87c363061-themes.zip: themes: This file has already been successfully uploaded
+2851.059 (9) backup_2022-02-07-2121_PhotoCC_d8b87c363061-uploads.zip: uploads: This file has already been successfully uploaded
+2851.059 (9) backup_2022-02-07-2121_PhotoCC_d8b87c363061-others.zip: others: This file has already been successfully uploaded
+2851.059 (9) backup_2022-02-07-2121_PhotoCC_d8b87c363061-db.gz: db: This file has already been successfully uploaded
+2851.060 (9) Saving backup history. Total backup size: Unknown
+2851.061 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+2851.061 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+2851.062 (9) Beginning dispatch of backup to remote (email)
+2851.062 (9) [Warning] Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+2851.062 (9) Email: backup_2022-02-07-2121_PhotoCC_d8b87c363061-plugins.zip: email to: lunel...
+2881.606 (9) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+2881.607 (9) Email: Mails were not sent successfully
+2881.607 (9) An error condition has occurred for the first time during this job
+2881.608 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2881.609 (9) Number of backup sets in history: 3; groups (db): 1
+2881.609 (9) Examining (for databases) backup set with group_id=0, nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2881.610 (9) This backup set is the backup set just made, so will not be deleted.
+2881.610 (9) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2881.610 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2881.610 (9) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2881.610 (9) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2881.610 (9) Number of backup sets in history: 3; groups (files): 1
+2881.610 (9) Examining (for files) backup set with nonce=d8b87c363061, datestamp=1644265297 (Feb 07 2022 20:21:37)
+2881.610 (9) This backup set is the backup set just made, so will not be deleted.
+2881.610 (9) This backup set is the backup set just made, so will not be deleted.
+2881.610 (9) This backup set is the backup set just made, so will not be deleted.
+2881.610 (9) This backup set is the backup set just made, so will not be deleted.
+2881.611 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2881.611 (9) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+2881.611 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2881.611 (9) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+2881.611 (9) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2881.611 (9) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2881.611 (9) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2881.611 (9) This backup set (1641072619) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+2881.611 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2881.611 (9) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2881.612 (9) Resume backup (d8b87c363061, 9): finish run
+2881.612 (9) [Info] Lock option (updraft_lock_d8b87c363061, wp_options) released
+2881.613 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+2881.613 (9) Fetching RSS news feed
+2881.787 (9) Fetched RSS news feed; result is a: SimplePie
+2881.810 (9) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 1, size: 156.8 KB) to: lunel...
+2881.912 (9) La tentative de sauvegarde est terminée, apparemment sans succès

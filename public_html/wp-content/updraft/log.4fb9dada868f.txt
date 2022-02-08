@@ -1,0 +1,65 @@
+0000.000 (0) Opened log file at time: Sat, 01 Jan 2022 21:11:12 +0000 on https://agvoy.go.yj.fr
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.69 WP: 5.8.2 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 68M | 69M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 2060940.7 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.006 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2022-01-01 21:11:12
+0000.006 (0) Semaphore (fd, wp_options) reset to 1
+0000.006 (0) Set semaphore last lock (fd) time to 2022-01-01 21:11:12
+0000.007 (0) Semaphore lock (fd) complete
+0000.008 (0) Backup run: resumption=0, nonce=4fb9dada868f, file_nonce=4fb9dada868f begun at=1641071472 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1641071772) in case this run gets aborted
+0000.235 (0) Checking if we have a zip executable available
+0000.235 (0) Testing: /usr/bin/zip
+0000.275 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.275 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.276 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.276 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.276 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.284 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.284 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.460 (0) Working binary zip found: /usr/bin/zip
+0000.461 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.461 (0) Creation of backups of directories: beginning
+0000.462 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.523 (0) Total entities for the zip file: 908 directories, 4358 files (0 skipped as non-modified), 85.7 MB
+0000.525 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.569 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.570 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.571 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.573 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.574 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.575 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4358 files batched, 663 (663) added so far); re-opening (prior size: 0 KB)
+0014.869 (0) backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: size is now: 7.10 MB
+0014.870 (0) A useful amount of data was added after this amount of zip processing: 14.7 s (normalised: 14.7 s, rate: 1741.7 KB/s)
+0014.871 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 700 files added (on-disk size: 7260.4 KB)
+0014.872 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 800 files added (on-disk size: 7260.4 KB)
+0014.873 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 900 files added (on-disk size: 7260.4 KB)
+0014.875 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1000 files added (on-disk size: 7260.4 KB)
+0014.876 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1100 files added (on-disk size: 7260.4 KB)
+0014.878 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1200 files added (on-disk size: 7260.4 KB)
+0014.969 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1300 files added (on-disk size: 7260.4 KB)
+0014.970 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1400 files added (on-disk size: 7260.4 KB)
+0014.972 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1500 files added (on-disk size: 7260.4 KB)
+0014.973 (0) Zip: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp: 1600 files added (on-disk size: 7260.4 KB)
+0014.974 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.2 MB, 4358 files batched, 1001 (1664) added so far); re-opening (prior size: 7260.4 KB)
+0028.901 (0) Binary zip: error (code: 9 - look it up in the Diagnostics section of the zip manual at http://infozip.sourceforge.net/FAQ.html#error-codes for interpretation... and also check that your hosting account quota is not full)
+0028.904 (0) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+0028.909 (0) File: plugins/elementor/core/files/assets/json/json-handler.php (exists: 1, is_readable: 1 size: 609)
+0028.917 (0) File: plugins/elementor/core/files/assets/svg/svg-handler.php (exists: 1, is_readable: 1 size: 6143)
+0028.940 (0) File: plugins/elementor/core/files/assets/files-upload-handler.php (exists: 1, is_readable: 1 size: 3836)
+0028.940 (0) File: plugins/elementor/core/files/assets/manager.php (exists: 1, is_readable: 1 size: 1237)
+0028.940 (0) File: plugins/elementor/core/files/css/base.php (exists: 1, is_readable: 1 size: 24820)
+0028.940 (0) File: plugins/elementor/core/files/css/global-css.php (exists: 1, is_readable: 1 size: 4024)
+0028.940 (0) File: plugins/elementor/core/files/css/post-local-cache.php (exists: 1, is_readable: 1 size: 758)
+0028.940 (0) File: plugins/elementor/core/files/css/post.php (exists: 1, is_readable: 1 size: 6881)
+0028.940 (0) File: plugins/elementor/core/files/css/post-preview.php (exists: 1, is_readable: 1 size: 1567)
+0028.940 (0) File: plugins/elementor/core/files/file-types/base.php (exists: 1, is_readable: 1 size: 1347)
+0028.940 (0) File: plugins/elementor/core/files/file-types/json.php (exists: 1, is_readable: 1 size: 544)
+0028.940 (0) File: plugins/elementor/core/files/file-types/svg.php (exists: 1, is_readable: 1 size: 18480)
+0028.940 (0) File: plugins/elementor/core/files/file-types/zip.php (exists: 1, is_readable: 1 size: 4218)
+0028.940 (0) File: plugins/elementor/core/files/base.php (exists: 1, is_readable: 1 size: 5725)
+0028.940 (0) File: plugins/elementor/core/files/manager.php (exists: 1, is_readable: 1 size: 4149)
+0028.940 (0) File: plugins/elementor/core/files/uploads-manager.php (exists: 1, is_readable: 1 size: 16798)
+0028.944 (0) File: plugins/elementor/core/frontend/render-modes/render-mode-base.php (exists: 1, is_readable: 1 size: 2151)
+0028.944 (0) File: plugins/elementor/core/frontend/render-modes/render-mode-normal.php (exists: 1, is_readable: 1 size: 410)

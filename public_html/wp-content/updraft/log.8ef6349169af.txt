@@ -1,0 +1,898 @@
+0000.000 (0) Opened log file at time: Sat, 05 Feb 2022 19:15:24 +0000 on https://agvoy.go.yj.fr
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.7M | 71M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 2050337.7 MB
+0000.003 (0) Deleting old temporary file: backup_2022-01-01-2211_PhotoCC_4fb9dada868f-plugins.zip.tmp
+0000.003 (0) Deleting old temporary file: backup_2022-01-01-2230_PhotoCC_f04b3ecff5a1-plugins.zip.list.tmp
+0000.006 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.010 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2022-02-05 19:15:24
+0000.011 (0) Semaphore (fd, wp_options) reset to 1
+0000.011 (0) Set semaphore last lock (fd) time to 2022-02-05 19:15:24
+0000.011 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1644088824) in case this run gets aborted
+0000.228 (0) Checking if we have a zip executable available
+0000.229 (0) Testing: /usr/bin/zip
+0000.267 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.267 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.267 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.268 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.268 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.274 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.274 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.278 (0) Working binary zip found: /usr/bin/zip
+0000.279 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.279 (0) Creation of backups of directories: beginning
+0000.280 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.389 (0) Total entities for the zip file: 917 directories, 4395 files (0 skipped as non-modified), 86.4 MB
+0000.390 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.392 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.393 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.394 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.395 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.397 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.398 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.399 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.400 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.402 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.402 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 4395 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0021.669 (0) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: size is now: 7.60 MB
+0021.671 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1100 files added (on-disk size: 7796.4 KB)
+0021.673 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1200 files added (on-disk size: 7796.4 KB)
+0021.674 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1300 files added (on-disk size: 7796.4 KB)
+0021.675 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1400 files added (on-disk size: 7796.4 KB)
+0021.677 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1500 files added (on-disk size: 7796.4 KB)
+0021.678 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1600 files added (on-disk size: 7796.4 KB)
+0021.679 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1700 files added (on-disk size: 7796.4 KB)
+0021.680 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1800 files added (on-disk size: 7796.4 KB)
+0021.682 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1900 files added (on-disk size: 7796.4 KB)
+0021.683 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2000 files added (on-disk size: 7796.4 KB)
+0021.683 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.5 MB, 4395 files batched, 1001 (2002) added so far); re-opening (prior size: 7796.4 KB)
+0062.612 (0) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: size is now: 13.90 MB
+0062.614 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2100 files added (on-disk size: 14263.6 KB)
+0062.616 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2200 files added (on-disk size: 14263.6 KB)
+0062.617 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2300 files added (on-disk size: 14263.6 KB)
+0062.618 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2400 files added (on-disk size: 14263.6 KB)
+0062.620 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2500 files added (on-disk size: 14263.6 KB)
+0062.621 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2600 files added (on-disk size: 14263.6 KB)
+0062.622 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2700 files added (on-disk size: 14263.6 KB)
+0062.624 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2800 files added (on-disk size: 14263.6 KB)
+0062.625 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2900 files added (on-disk size: 14263.6 KB)
+0062.626 (0) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3000 files added (on-disk size: 14263.6 KB)
+0062.627 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.9 MB, 4395 files batched, 1001 (3003) added so far); re-opening (prior size: 14263.6 KB)
+0093.312 (0) Binary zip: error (code: 9 - look it up in the Diagnostics section of the zip manual at http://infozip.sourceforge.net/FAQ.html#error-codes for interpretation... and also check that your hosting account quota is not full)
+0093.315 (0) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+0093.339 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/ChunkedIterator.php (exists: 1, is_readable: 1 size: 1302)
+0093.367 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/composer.json (exists: 1, is_readable: 1 size: 678)
+0093.367 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/FilterIterator.php (exists: 1, is_readable: 1 size: 986)
+0093.374 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/MapIterator.php (exists: 1, is_readable: 1 size: 852)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/MethodProxyIterator.php (exists: 1, is_readable: 1 size: 610)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/README.md (exists: 1, is_readable: 1 size: 666)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/AbstractLogAdapter.php (exists: 1, is_readable: 1 size: 288)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/ArrayLogAdapter.php (exists: 1, is_readable: 1 size: 615)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/ClosureLogAdapter.php (exists: 1, is_readable: 1 size: 583)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/composer.json (exists: 1, is_readable: 1 size: 672)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/LogAdapterInterface.php (exists: 1, is_readable: 1 size: 491)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/MessageFormatter.php (exists: 1, is_readable: 1 size: 7119)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/MonologLogAdapter.php (exists: 1, is_readable: 1 size: 739)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/PsrLogAdapter.php (exists: 1, is_readable: 1 size: 862)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/Zf1LogAdapter.php (exists: 1, is_readable: 1 size: 493)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Log/Zf2LogAdapter.php (exists: 1, is_readable: 1 size: 393)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParserInterface.php (exists: 1, is_readable: 1 size: 1484)
+0093.390 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Cookie/CookieParser.php (exists: 1, is_readable: 1 size: 4730)
+0093.394 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/AbstractMessageParser.php (exists: 1, is_readable: 1 size: 1676)
+0093.410 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParserInterface.php (exists: 1, is_readable: 1 size: 695)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/MessageParser.php (exists: 1, is_readable: 1 size: 3371)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Message/PeclHttpMessageParser.php (exists: 1, is_readable: 1 size: 1198)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/PeclUriTemplate.php (exists: 1, is_readable: 1 size: 692)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplateInterface.php (exists: 1, is_readable: 1 size: 510)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/UriTemplate/UriTemplate.php (exists: 1, is_readable: 1 size: 8217)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParserInterface.php (exists: 1, is_readable: 1 size: 532)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/Url/UrlParser.php (exists: 1, is_readable: 1 size: 1428)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/composer.json (exists: 1, is_readable: 1 size: 471)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Parser/ParserRegistry.php (exists: 1, is_readable: 1 size: 1949)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/AsyncPlugin.php (exists: 1, is_readable: 1 size: 2969)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Async/composer.json (exists: 1, is_readable: 1 size: 668)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractBackoffStrategy.php (exists: 1, is_readable: 1 size: 3145)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php (exists: 1, is_readable: 1 size: 1045)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffLogger.php (exists: 1, is_readable: 1 size: 2321)
+0093.429 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffPlugin.php (exists: 1, is_readable: 1 size: 4413)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/BackoffStrategyInterface.php (exists: 1, is_readable: 1 size: 995)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CallbackBackoffStrategy.php (exists: 1, is_readable: 1 size: 1524)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/composer.json (exists: 1, is_readable: 1 size: 713)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ConstantBackoffStrategy.php (exists: 1, is_readable: 1 size: 903)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/CurlBackoffStrategy.php (exists: 1, is_readable: 1 size: 991)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php (exists: 1, is_readable: 1 size: 654)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/HttpBackoffStrategy.php (exists: 1, is_readable: 1 size: 902)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php (exists: 1, is_readable: 1 size: 909)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ReasonPhraseBackoffStrategy.php (exists: 1, is_readable: 1 size: 686)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/TruncatedBackoffStrategy.php (exists: 1, is_readable: 1 size: 975)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php (exists: 1, is_readable: 1 size: 245)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CachePlugin.php (exists: 1, is_readable: 1 size: 13114)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php (exists: 1, is_readable: 1 size: 981)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CallbackCanCacheStrategy.php (exists: 1, is_readable: 1 size: 1667)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CanCacheStrategyInterface.php (exists: 1, is_readable: 1 size: 649)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/composer.json (exists: 1, is_readable: 1 size: 705)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheKeyProvider.php (exists: 1, is_readable: 1 size: 1502)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCacheStorage.php (exists: 1, is_readable: 1 size: 8331)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultCanCacheStrategy.php (exists: 1, is_readable: 1 size: 908)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DefaultRevalidation.php (exists: 1, is_readable: 1 size: 6353)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/DenyRevalidation.php (exists: 1, is_readable: 1 size: 406)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/RevalidationInterface.php (exists: 1, is_readable: 1 size: 846)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/SkipRevalidation.php (exists: 1, is_readable: 1 size: 406)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/ArrayCookieJar.php (exists: 1, is_readable: 1 size: 7488)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/CookieJarInterface.php (exists: 1, is_readable: 1 size: 2922)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookieJar/FileCookieJar.php (exists: 1, is_readable: 1 size: 1670)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Exception/InvalidCookieException.php (exists: 1, is_readable: 1 size: 170)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/composer.json (exists: 1, is_readable: 1 size: 664)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/Cookie.php (exists: 1, is_readable: 1 size: 12594)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookiePlugin.php (exists: 1, is_readable: 1 size: 1929)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/composer.json (exists: 1, is_readable: 1 size: 690)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/CurlAuth/CurlAuthPlugin.php (exists: 1, is_readable: 1 size: 1388)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/Exception/ErrorResponseException.php (exists: 1, is_readable: 1 size: 161)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/composer.json (exists: 1, is_readable: 1 size: 757)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponseExceptionInterface.php (exists: 1, is_readable: 1 size: 598)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/ErrorResponse/ErrorResponsePlugin.php (exists: 1, is_readable: 1 size: 2820)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/composer.json (exists: 1, is_readable: 1 size: 668)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/History/HistoryPlugin.php (exists: 1, is_readable: 1 size: 3921)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/composer.json (exists: 1, is_readable: 1 size: 723)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Log/LogPlugin.php (exists: 1, is_readable: 1 size: 5885)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/CommandContentMd5Plugin.php (exists: 1, is_readable: 1 size: 2205)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/composer.json (exists: 1, is_readable: 1 size: 653)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Md5/Md5ValidatorPlugin.php (exists: 1, is_readable: 1 size: 3445)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/composer.json (exists: 1, is_readable: 1 size: 664)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Mock/MockPlugin.php (exists: 1, is_readable: 1 size: 6990)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/composer.json (exists: 1, is_readable: 1 size: 669)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Oauth/OauthPlugin.php (exists: 1, is_readable: 1 size: 10280)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/composer.json (exists: 1, is_readable: 1 size: 1364)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderInterface.php (exists: 1, is_readable: 1 size: 1990)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilderLoader.php (exists: 1, is_readable: 1 size: 3396)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilder.php (exists: 1, is_readable: 1 size: 5913)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/AliasFactory.php (exists: 1, is_readable: 1 size: 1120)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/CompositeFactory.php (exists: 1, is_readable: 1 size: 4124)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ConcreteClassFactory.php (exists: 1, is_readable: 1 size: 1605)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/FactoryInterface.php (exists: 1, is_readable: 1 size: 426)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/MapFactory.php (exists: 1, is_readable: 1 size: 639)
+0093.430 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/Factory/ServiceDescriptionFactory.php (exists: 1, is_readable: 1 size: 2157)
+0093.445 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/AbstractRequestVisitor.php (exists: 1, is_readable: 1 size: 2302)
+0093.468 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/BodyVisitor.php (exists: 1, is_readable: 1 size: 2479)
+0093.538 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/HeaderVisitor.php (exists: 1, is_readable: 1 size: 1529)
+0093.542 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/JsonVisitor.php (exists: 1, is_readable: 1 size: 2024)
+0093.574 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFieldVisitor.php (exists: 1, is_readable: 1 size: 525)
+0093.581 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/PostFileVisitor.php (exists: 1, is_readable: 1 size: 702)
+0093.601 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/QueryVisitor.php (exists: 1, is_readable: 1 size: 536)
+0093.601 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/RequestVisitorInterface.php (exists: 1, is_readable: 1 size: 1079)
+0093.624 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/ResponseBodyVisitor.php (exists: 1, is_readable: 1 size: 499)
+0093.628 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Request/XmlVisitor.php (exists: 1, is_readable: 1 size: 8099)
+0093.633 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/AbstractResponseVisitor.php (exists: 1, is_readable: 1 size: 614)
+0093.699 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/BodyVisitor.php (exists: 1, is_readable: 1 size: 563)
+0093.710 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/HeaderVisitor.php (exists: 1, is_readable: 1 size: 1814)
+0093.722 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/JsonVisitor.php (exists: 1, is_readable: 1 size: 3514)
+0093.726 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ReasonPhraseVisitor.php (exists: 1, is_readable: 1 size: 584)
+0093.734 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/ResponseVisitorInterface.php (exists: 1, is_readable: 1 size: 1586)
+0093.765 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/StatusCodeVisitor.php (exists: 1, is_readable: 1 size: 578)
+0093.808 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/Response/XmlVisitor.php (exists: 1, is_readable: 1 size: 5584)
+0093.820 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/LocationVisitor/VisitorFlyweight.php (exists: 1, is_readable: 1 size: 4819)
+0093.827 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/AbstractCommand.php (exists: 1, is_readable: 1 size: 12340)
+0093.882 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/ClosureCommand.php (exists: 1, is_readable: 1 size: 1309)
+0093.894 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CommandInterface.php (exists: 1, is_readable: 1 size: 3525)
+0093.933 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/CreateResponseClassEvent.php (exists: 1, is_readable: 1 size: 572)
+0093.949 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/DefaultRequestSerializer.php (exists: 1, is_readable: 1 size: 5846)
+0093.964 (0) File: plugins/up0093.972 (0) File: plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Command/OperationCommand.php (exists: 1, is_readable: 1 size: 2523)
+0471.092 (1) Opened log file at time: Sat, 05 Feb 2022 19:23:15 +0000 on https://agvoy.go.yj.fr
+0471.093 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0471.093 (1) Free space on disk containing Updraft's temporary directory: 2050317.5 MB
+0471.095 (1) Requesting backup semaphore lock (8ef6349169af)
+0471.096 (1) [Debug] Lock option (updraft_lock_8ef6349169af, wp_options) was created in the database
+0471.096 (1) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired after initialising the database
+0471.097 (1) Backup run: resumption=1, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (471s ago), job type=backup, previous check-in=93.29s
+0471.097 (1) Scheduling a resumption (2) after 300 seconds (1644089295) in case this run gets aborted
+0471.112 (1) Checking if we have a zip executable available
+0471.112 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0471.112 (1) Creation of backups of directories: had begun; will resume
+0471.113 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0471.113 (1) File exists (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1644088587, time_now=1644088995, diff=408)
+0471.385 (1) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.list-temp.tmp)
+0471.734 (1) Successfully created zip file manifest (size: 163839)
+0471.735 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: Zip file already exists, with 2002 files
+0471.865 (1) Total entities for the zip file: 899 directories, 4362 files (0 skipped as non-modified), 86.4 MB
+0471.867 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 100 files added (on-disk size: 14263.6 KB)
+0471.867 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 200 files added (on-disk size: 14263.6 KB)
+0471.868 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 300 files added (on-disk size: 14263.6 KB)
+0471.868 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 400 files added (on-disk size: 14263.6 KB)
+0471.868 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 500 files added (on-disk size: 14263.6 KB)
+0471.869 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 600 files added (on-disk size: 14263.6 KB)
+0471.870 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 700 files added (on-disk size: 14263.6 KB)
+0471.870 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 800 files added (on-disk size: 14263.6 KB)
+0471.871 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 900 files added (on-disk size: 14263.6 KB)
+0471.872 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1000 files added (on-disk size: 14263.6 KB)
+0471.873 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1100 files added (on-disk size: 14263.6 KB)
+0471.875 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1200 files added (on-disk size: 14263.6 KB)
+0471.876 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1300 files added (on-disk size: 14263.6 KB)
+0471.877 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1400 files added (on-disk size: 14263.6 KB)
+0471.879 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1500 files added (on-disk size: 14263.6 KB)
+0471.880 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1600 files added (on-disk size: 14263.6 KB)
+0471.881 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1700 files added (on-disk size: 14263.6 KB)
+0471.882 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1800 files added (on-disk size: 14263.6 KB)
+0471.884 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 1900 files added (on-disk size: 14263.6 KB)
+0471.884 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.6 MB, 4362 files batched, 1001 (1001) added so far); re-opening (prior size: 14263.6 KB)
+0528.403 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: size is now: 18.60 MB
+0528.413 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2000 files added (on-disk size: 19000.8 KB)
+0528.414 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2100 files added (on-disk size: 19000.8 KB)
+0528.415 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2200 files added (on-disk size: 19000.8 KB)
+0528.416 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2300 files added (on-disk size: 19000.8 KB)
+0528.418 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2400 files added (on-disk size: 19000.8 KB)
+0528.419 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2500 files added (on-disk size: 19000.8 KB)
+0528.419 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2600 files added (on-disk size: 19000.8 KB)
+0528.421 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2700 files added (on-disk size: 19000.8 KB)
+0528.422 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2800 files added (on-disk size: 19000.8 KB)
+0528.423 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 2900 files added (on-disk size: 19000.8 KB)
+0528.424 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3000 files added (on-disk size: 19000.8 KB)
+0528.425 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.2 MB, 4362 files batched, 1001 (2002) added so far); re-opening (prior size: 19000.8 KB)
+0586.123 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: size is now: 26.00 MB
+0586.125 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3100 files added (on-disk size: 26582.4 KB)
+0586.127 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3200 files added (on-disk size: 26582.4 KB)
+0586.128 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3300 files added (on-disk size: 26582.4 KB)
+0586.129 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3400 files added (on-disk size: 26582.4 KB)
+0586.130 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3500 files added (on-disk size: 26582.4 KB)
+0586.131 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3600 files added (on-disk size: 26582.4 KB)
+0586.132 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3700 files added (on-disk size: 26582.4 KB)
+0586.132 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3800 files added (on-disk size: 26582.4 KB)
+0586.133 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 3900 files added (on-disk size: 26582.4 KB)
+0586.134 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 4000 files added (on-disk size: 26582.4 KB)
+0586.135 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 4100 files added (on-disk size: 26582.4 KB)
+0586.135 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 4200 files added (on-disk size: 26582.4 KB)
+0586.136 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip.tmp: 4300 files added (on-disk size: 26582.4 KB)
+0611.104 (1) Created plugins zip (0) - 28438.8 KB in 140 s (203.1 KB/s) (sha1: 362e182ffaa762ba9c62a1e2f6435a34a75a158b, sha256: feebb06907f6997ffe767adee0fcab8915766ee28fcce9ab776e2cc21518ea45)
+0611.105 (1) Deleting old temporary file: zi6xXYiw
+0611.106 (1) Beginning creation of dump of themes (split every: 400 MB)
+0611.173 (1) Total entities for the zip file: 391 directories, 1113 files (0 skipped as non-modified), 31.5 MB
+0611.174 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0611.175 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0611.176 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0611.178 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0611.179 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0611.180 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0611.181 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0611.183 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0611.184 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1113 files batched, 875 (875) added so far); re-opening (prior size: 0 KB)
+0648.084 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: size is now: 9.20 MB
+0648.088 (1) A useful amount of data was added after this amount of zip processing: 37.8 s (normalised: 37.5 s, rate: 682.4 KB/s)
+0648.089 (1) Performance is good - will increase the amount of data we attempt to batch (time=37.823455095291, normalised_time=37.514729638106, max_time=93, data points known=1, old_max_bytes=26214400, new_max_bytes=38991711)
+0648.089 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 900 files added (on-disk size: 9419.2 KB)
+0648.091 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 1000 files added (on-disk size: 9419.2 KB)
+0648.092 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: 1100 files added (on-disk size: 9419.2 KB)
+0657.753 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.tmp: size is now: 13.80 MB
+0657.765 (1) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.list-temp.tmp)
+0657.767 (1) Successfully created zip file manifest (size: 88225)
+0657.973 (1) Created themes zip (0) - 14099.3 KB in 46.9 s (300.8 KB/s) (sha1: 8684f5efeb51b6c092ebac138ca56b3a402883bc, sha256: 7af58841826e7ce59c821fcd4d45163900568b0a482af86afa445aa965675faf)
+0657.974 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0657.975 (1) Looking for candidates to backup in: /home/rfseggdz/public_html/wp-content/uploads
+0657.975 (1) finding files: 2021: adding to list (1)
+0657.975 (1) finding files: astra-sites: adding to list (2)
+0657.975 (1) finding files: essential-addons-elementor: adding to list (3)
+0657.976 (1) finding files: elementor: adding to list (4)
+0657.976 (1) finding files: wpforms: adding to list (5)
+0657.976 (1) finding files: 2022: adding to list (6)
+0657.976 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0657.979 (1) Total entities for the zip file: 12 directories, 81 files (0 skipped as non-modified), 5.8 MB
+0669.330 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip.tmp: size is now: 4.80 MB
+0669.332 (1) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip.list-temp.tmp)
+0669.332 (1) Successfully created zip file manifest (size: 5271)
+0669.370 (1) Created uploads zip (0) - 4883.2 KB in 11.4 s (428.6 KB/s) (sha1: 4c1de6f099091c5acc452ceba15b485fb2e62dea, sha256: e16da29eacd2781cd9349b85f3a0dfd2c35ed6e6e3d438285d01510852a09ee0)
+0669.371 (1) Beginning backup of other directories found in the content directory (index: 0)
+0669.371 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0669.371 (1) Looking for candidates to backup in: /home/rfseggdz/public_html/wp-content
+0669.372 (1) finding files: plugins: skipping: this is the plugins directory
+0669.372 (1) finding files: themes: skipping: this is the themes directory
+0669.372 (1) finding files: languages: adding to list (1)
+0669.372 (1) finding files: index.php: adding to list (2)
+0669.373 (1) finding files: uploads: skipping: this is the uploads directory
+0669.373 (1) finding files: upgrade: skipping: excluded by options
+0669.373 (1) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0669.373 (1) finding files: updraft: skipping: this is the updraft directory
+0669.375 (1) Total entities for the zip file: 3 directories, 105 files (0 skipped as non-modified), 4.6 MB
+0669.376 (1) Zip: backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0669.729 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip.tmp: size is now: 1.30 MB
+0669.731 (1) Creating zip file manifest (/home/rfseggdz/public_html/wp-content/updraft/backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip.list-temp.tmp)
+0669.731 (1) Successfully created zip file manifest (size: 6480)
+0669.775 (1) Created others zip (0) - 1323.2 KB in 0.4 s (3298.1 KB/s) (sha1: 97f086daea31335e7460258786ba4a45803427da, sha256: 90a1db26df67ba426cbb1e29db0eb6d3e5ed8bb2e9e298797f5d5bd765f46d8a)
+0669.777 (1) Saving backup status to database (elements: 8)
+0669.779 (1) Resuming creation of database dump (WordPress DB)
+0669.779 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0669.780 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+0669.798 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1523 bytes total)
+0669.799 (1) Working binary mysqldump found: /usr/bin/mysqldump
+0669.803 (1) Table wp_options: Total expected rows (via COUNT): 390
+0669.804 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.968 (1) Table wp_options: Rows added in this batch (next record: 2857): 386 (uncompressed bytes in this segment=4565189) in 0.17 seconds
+0669.970 (1) Table wp_options: finishing file(s) (2, 383 KB)
+0669.971 (1) Table wp_users: Total expected rows (via COUNT): 2
+0669.972 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.973 (1) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1487) in 0.00 seconds
+0669.974 (1) Table wp_users: finishing file(s) (2, 0.6 KB)
+0669.976 (1) Table wp_usermeta: Total expected rows (via COUNT): 41
+0669.976 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.977 (1) Table wp_usermeta: Rows added in this batch (next record: 42): 41 (uncompressed bytes in this segment=2979) in 0.00 seconds
+0669.979 (1) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0669.981 (1) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 45
+0669.981 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.983 (1) Table wp_actionscheduler_actions: Rows added in this batch (next record: 811): 45 (uncompressed bytes in this segment=20782) in 0.00 seconds
+0669.984 (1) Table wp_actionscheduler_actions: finishing file(s) (2, 2.1 KB)
+0669.986 (1) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0669.986 (1) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+0669.987 (1) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0669.989 (1) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0669.989 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.990 (1) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.00 seconds
+0669.991 (1) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0669.992 (1) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 127
+0669.993 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0669.994 (1) Table wp_actionscheduler_logs: Rows added in this batch (next record: 178): 127 (uncompressed bytes in this segment=11640) in 0.00 seconds
+0669.996 (1) Table wp_actionscheduler_logs: finishing file(s) (2, 1.7 KB)
+0669.997 (1) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0669.998 (1) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0670.000 (1) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0670.001 (1) Table wp_comments: Total expected rows (via COUNT): 2
+0670.001 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.003 (1) Table wp_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2665) in 0.00 seconds
+0670.004 (1) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0670.006 (1) Table wp_links: Total expected rows (via COUNT): 0
+0670.006 (1) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0670.008 (1) Table wp_links: finishing file(s) (2, 0.5 KB)
+0670.010 (1) Table wp_postmeta: Total expected rows (approximate): 1801
+0670.036 (1) Table wp_postmeta: Rows added in this batch (next record: 2253): 1801 (uncompressed bytes in this segment=1220888) in 0.03 seconds
+0670.038 (1) Table wp_postmeta: finishing file(s) (2, 69.1 KB)
+0670.041 (1) Table wp_posts: Total expected rows (via COUNT): 247
+0670.041 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.081 (1) Table wp_posts: Rows added in this batch (next record: 929): 247 (uncompressed bytes in this segment=1818867) in 0.04 seconds
+0670.083 (1) Table wp_posts: finishing file(s) (2, 46.8 KB)
+0670.084 (1) Table wp_term_relationships: Total expected rows (approximate): 64
+0670.085 (1) Table wp_term_relationships: Rows added in this batch (next record: 100000): 64 (uncompressed bytes in this segment=1583) in 0.00 seconds
+0670.087 (1) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0670.089 (1) Table wp_term_taxonomy: Total expected rows (via COUNT): 18
+0670.089 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.090 (1) Table wp_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1521) in 0.00 seconds
+0670.091 (1) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0670.093 (1) Table wp_termmeta: Total expected rows (via COUNT): 0
+0670.094 (1) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0670.096 (1) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0670.097 (1) Table wp_terms: Total expected rows (via COUNT): 18
+0670.097 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.098 (1) Table wp_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1388) in 0.00 seconds
+0670.099 (1) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0670.100 (1) Skipping table (lacks our prefix (wp_)): noc_autologin
+0670.102 (1) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 20
+0670.102 (1) Last successful resumption was 1 runs ago; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0670.103 (1) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2190) in 0.00 seconds
+0670.104 (1) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.7 KB)
+0670.105 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_options.table.tmpr2858.gz (1/18/fopen): adding to final database dump
+0670.108 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_options.table.gz (2/18/fopen): adding to final database dump
+0670.109 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_users.table.tmpr3.gz (3/18/fopen): adding to final database dump
+0670.109 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_users.table.gz (4/18/fopen): adding to final database dump
+0670.109 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_usermeta.table.tmpr43.gz (5/18/fopen): adding to final database dump
+0670.109 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_usermeta.table.gz (6/18/fopen): adding to final database dump
+0670.110 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_actions.table.tmpr812.gz (7/18/fopen): adding to final database dump
+0670.110 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_actions.table.gz (8/18/fopen): adding to final database dump
+0670.110 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/18/fopen): adding to final database dump
+0670.110 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_claims.table.gz (10/18/fopen): adding to final database dump
+0670.111 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/18/fopen): adding to final database dump
+0670.111 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_groups.table.gz (12/18/fopen): adding to final database dump
+0670.111 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_logs.table.tmpr179.gz (13/18/fopen): adding to final database dump
+0670.111 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_actionscheduler_logs.table.gz (14/18/fopen): adding to final database dump
+0670.112 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_commentmeta.table.tmpr0.gz (15/18/fopen): adding to final database dump
+0670.112 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_commentmeta.table.gz (16/18/fopen): adding to final database dump
+0670.112 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_comments.table.tmpr3.gz (17/18/fopen): adding to final database dump
+0670.113 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_comments.table.gz (18/18/fopen): adding to final database dump
+0670.113 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_links.table.tmpr0.gz (19/18/fopen): adding to final database dump
+0670.113 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_links.table.gz (20/18/fopen): adding to final database dump
+0670.113 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_postmeta.table.tmpr2254.gz (21/18/fopen): adding to final database dump
+0670.114 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_postmeta.table.gz (22/18/fopen): adding to final database dump
+0670.114 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_posts.table.tmpr930.gz (23/18/fopen): adding to final database dump
+0670.115 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_posts.table.gz (24/18/fopen): adding to final database dump
+0670.115 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_term_relationships.table.tmpr100001.gz (25/18/fopen): adding to final database dump
+0670.116 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_term_relationships.table.gz (26/18/fopen): adding to final database dump
+0670.116 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_term_taxonomy.table.tmpr19.gz (27/18/fopen): adding to final database dump
+0670.116 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_term_taxonomy.table.gz (28/18/fopen): adding to final database dump
+0670.116 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_termmeta.table.tmpr0.gz (29/18/fopen): adding to final database dump
+0670.117 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_termmeta.table.gz (30/18/fopen): adding to final database dump
+0670.117 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_terms.table.tmpr19.gz (31/18/fopen): adding to final database dump
+0670.117 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_terms.table.gz (32/18/fopen): adding to final database dump
+0670.117 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_wpforms_tasks_meta.table.tmpr21.gz (33/18/fopen): adding to final database dump
+0670.118 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db-table-wp_wpforms_tasks_meta.table.gz (34/18/fopen): adding to final database dump
+0670.119 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: finished writing out complete database file (510.4 KB)
+0670.125 (1) Total database tables backed up: 17 (backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz, size: 522748, sha1: d4a70d507aa660fbaced10ab77eccaec5e539d3e, sha256: 580b634ffc9c49e5b85dc1671921cc8cd3cfce2176e21980d9c0de7e5db6ac30)
+0670.127 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0670.127 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0670.127 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0670.128 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has not yet been successfully uploaded: will queue
+0670.128 (1) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has not yet been successfully uploaded: will queue
+0670.128 (1) Saving backup history. Total backup size: 48.1 MB
+0670.129 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0670.130 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0670.130 (1) Beginning dispatch of backup to remote (email)
+0670.131 (1) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+0670.131 (1) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+0677.179 (1) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+0677.180 (1) Email: Mails were not sent successfully
+0677.180 (1) An error condition has occurred for the first time during this job
+0677.181 (1) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: email to: lunel...
+0677.582 (1) Recording as successfully uploaded: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip
+0677.585 (1) Deleting local file: backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: OK
+0677.585 (1) Deleting zip manifest (backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip.list.tmp)
+0677.586 (1) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: email to: lunel...
+0677.766 (1) Recording as successfully uploaded: backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip
+0677.768 (1) Deleting local file: backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: OK
+0677.768 (1) Deleting zip manifest (backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip.list.tmp)
+0677.769 (1) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: email to: lunel...
+0677.939 (1) Recording as successfully uploaded: backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip
+0677.940 (1) Deleting local file: backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: OK
+0677.941 (1) Deleting zip manifest (backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip.list.tmp)
+0677.941 (1) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: email to: lunel...
+0678.065 (1) Recording as successfully uploaded: backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz
+0678.067 (1) Deleting local file: backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: OK
+0678.067 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0678.068 (1) Number of backup sets in history: 3; groups (db): 1
+0678.069 (1) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+0678.069 (1) This backup set is the backup set just made, so will not be deleted.
+0678.069 (1) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+0678.069 (1) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0678.069 (1) Examining (for databases) backup set with group_id=0, nonce=6a0c1c98d4fc, datestamp=1641071835 (Jan 01 2022 21:17:15)
+0678.069 (1) 1641071835: db: this set includes a database (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-db.gz); db count is now 2
+0678.069 (1) 1641071835: db: over retain limit (2); will delete this database
+0678.069 (1) Delete file: backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-db.gz, service=email
+0678.069 (1) Deleting local copy (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-db.gz)
+0678.073 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0678.073 (1) Number of backup sets in history: 3; groups (files): 1
+0678.074 (1) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+0678.074 (1) This backup set is the backup set just made, so will not be deleted.
+0678.074 (1) This backup set is the backup set just made, so will not be deleted.
+0678.074 (1) This backup set is the backup set just made, so will not be deleted.
+0678.074 (1) This backup set is the backup set just made, so will not be deleted.
+0678.074 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0678.074 (1) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+0678.074 (1) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0678.074 (1) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0678.074 (1) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0678.074 (1) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0678.074 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0678.075 (1) Examining (for files) backup set with nonce=6a0c1c98d4fc, datestamp=1641071835 (Jan 01 2022 21:17:15)
+0678.075 (1) plugins: over retain limit (2); will delete this file entity
+0678.075 (1) themes: over retain limit (2); will delete this file entity
+0678.075 (1) uploads: over retain limit (2); will delete this file entity
+0678.075 (1) others: over retain limit (2); will delete this file entity
+0678.075 (1) Delete file: backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-plugins.zip, service=email
+0678.075 (1) Deleting local copy (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-plugins.zip)
+0678.075 (1) Delete file: backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-themes.zip, service=email
+0678.076 (1) Deleting local copy (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-themes.zip)
+0678.076 (1) Delete file: backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-uploads.zip, service=email
+0678.076 (1) Deleting local copy (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-uploads.zip)
+0678.077 (1) Delete file: backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-others.zip, service=email
+0678.077 (1) Deleting local copy (backup_2022-01-01-2217_PhotoCC_6a0c1c98d4fc-others.zip)
+0678.078 (1) This backup set is now empty; will remove from history
+0678.078 (1) Deleting log file (log.6a0c1c98d4fc.txt)
+0678.078 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0678.079 (1) Resume backup (8ef6349169af, 1): finish run
+0678.080 (1) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+0678.080 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0678.081 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1165.092 (2) Opened log file at time: Sat, 05 Feb 2022 19:34:49 +0000 on https://agvoy.go.yj.fr
+1165.093 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1165.093 (2) Free space on disk containing Updraft's temporary directory: 2050358.6 MB
+1165.096 (2) Requesting backup semaphore lock (8ef6349169af)
+1165.096 (2) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+1165.097 (2) Backup run: resumption=2, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (1165s ago), job type=backup, previous check-in=206.99s
+1165.098 (2) Scheduling a resumption (3) after 300 seconds (1644089989) in case this run gets aborted
+1165.339 (2) Checking if we have a zip executable available
+1165.339 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1165.340 (2) Creation of backups of directories: already finished
+1165.371 (2) Saving backup status to database (elements: 8)
+1165.381 (2) Database dump (WordPress DB): Creation was completed already
+1165.381 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1165.383 (2) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1165.383 (2) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+1165.383 (2) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+1165.383 (2) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+1165.384 (2) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+1165.384 (2) Saving backup history. Total backup size: Unknown
+1165.385 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+1165.385 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+1165.386 (2) Beginning dispatch of backup to remote (email)
+1165.386 (2) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1165.387 (2) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+1176.293 (2) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1176.294 (2) Email: Mails were not sent successfully
+1176.294 (2) An error condition has occurred for the first time during this job
+1176.295 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1176.296 (2) Number of backup sets in history: 2; groups (db): 1
+1176.296 (2) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1176.296 (2) This backup set is the backup set just made, so will not be deleted.
+1176.296 (2) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1176.296 (2) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1176.296 (2) Number of backup sets in history: 2; groups (files): 1
+1176.296 (2) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1176.296 (2) This backup set is the backup set just made, so will not be deleted.
+1176.297 (2) This backup set is the backup set just made, so will not be deleted.
+1176.297 (2) This backup set is the backup set just made, so will not be deleted.
+1176.297 (2) This backup set is the backup set just made, so will not be deleted.
+1176.297 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1176.297 (2) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1176.297 (2) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1176.297 (2) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1176.297 (2) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1176.297 (2) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1176.297 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1176.297 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1176.298 (2) Resume backup (8ef6349169af, 2): finish run
+1176.299 (2) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+1176.299 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1176.300 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1889.794 (3) Opened log file at time: Sat, 05 Feb 2022 19:46:54 +0000 on https://agvoy.go.yj.fr
+1889.795 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1889.795 (3) Free space on disk containing Updraft's temporary directory: 2050358.5 MB
+1889.796 (3) Requesting backup semaphore lock (8ef6349169af)
+1889.796 (3) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+1889.797 (3) Backup run: resumption=3, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (1890s ago), job type=backup
+1889.798 (3) Scheduling a resumption (4) after 300 seconds (1644090714) in case this run gets aborted
+1889.804 (3) Checking if we have a zip executable available
+1889.804 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1889.805 (3) Creation of backups of directories: already finished
+1889.805 (3) Saving backup status to database (elements: 8)
+1889.807 (3) Database dump (WordPress DB): Creation was completed already
+1889.807 (3) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1889.808 (3) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1889.808 (3) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+1889.809 (3) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+1889.809 (3) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+1889.809 (3) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+1889.809 (3) Saving backup history. Total backup size: Unknown
+1889.810 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+1889.811 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+1889.811 (3) Beginning dispatch of backup to remote (email)
+1889.812 (3) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+1889.812 (3) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+1892.923 (3) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+1892.924 (3) Email: Mails were not sent successfully
+1892.924 (3) An error condition has occurred for the first time during this job
+1892.925 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1892.926 (3) Number of backup sets in history: 2; groups (db): 1
+1892.926 (3) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1892.926 (3) This backup set is the backup set just made, so will not be deleted.
+1892.926 (3) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1892.926 (3) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1892.926 (3) Number of backup sets in history: 2; groups (files): 1
+1892.926 (3) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+1892.926 (3) This backup set is the backup set just made, so will not be deleted.
+1892.927 (3) This backup set is the backup set just made, so will not be deleted.
+1892.927 (3) This backup set is the backup set just made, so will not be deleted.
+1892.927 (3) This backup set is the backup set just made, so will not be deleted.
+1892.927 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1892.927 (3) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+1892.927 (3) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1892.927 (3) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1892.927 (3) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1892.927 (3) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+1892.927 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1892.927 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1892.928 (3) Resume backup (8ef6349169af, 3): finish run
+1892.929 (3) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+1892.929 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1892.930 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+3289.880 (4) Opened log file at time: Sat, 05 Feb 2022 20:10:14 +0000 on https://agvoy.go.yj.fr
+3289.881 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3289.881 (4) Free space on disk containing Updraft's temporary directory: 2050357.6 MB
+3289.885 (4) Requesting backup semaphore lock (8ef6349169af)
+3289.885 (4) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+3289.886 (4) Backup run: resumption=4, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (3290s ago), job type=backup
+3289.886 (4) Long time past since expected resumption time: approx expected=1644090714.5, now=1644091814.6, diff=1100.1
+3289.887 (4) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3289.888 (4) Scheduling a resumption (5) after 300 seconds (1644092114) in case this run gets aborted
+3289.906 (4) Checking if we have a zip executable available
+3289.907 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+3289.907 (4) Creation of backups of directories: already finished
+3289.907 (4) Saving backup status to database (elements: 8)
+3289.909 (4) Database dump (WordPress DB): Creation was completed already
+3289.910 (4) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3289.911 (4) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3289.911 (4) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+3289.911 (4) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+3289.911 (4) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+3289.912 (4) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+3289.912 (4) Saving backup history. Total backup size: Unknown
+3289.913 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+3289.913 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+3289.914 (4) Beginning dispatch of backup to remote (email)
+3289.914 (4) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+3289.914 (4) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+3302.587 (4) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+3302.588 (4) Email: Mails were not sent successfully
+3302.589 (4) An error condition has occurred for the first time during this job
+3302.590 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3302.590 (4) Number of backup sets in history: 2; groups (db): 1
+3302.590 (4) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+3302.591 (4) This backup set is the backup set just made, so will not be deleted.
+3302.591 (4) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+3302.591 (4) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+3302.591 (4) Number of backup sets in history: 2; groups (files): 1
+3302.591 (4) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+3302.591 (4) This backup set is the backup set just made, so will not be deleted.
+3302.591 (4) This backup set is the backup set just made, so will not be deleted.
+3302.591 (4) This backup set is the backup set just made, so will not be deleted.
+3302.591 (4) This backup set is the backup set just made, so will not be deleted.
+3302.591 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3302.592 (4) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+3302.592 (4) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+3302.592 (4) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+3302.592 (4) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+3302.592 (4) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+3302.592 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3302.592 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3302.593 (4) Resume backup (8ef6349169af, 4): finish run
+3302.593 (4) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+3302.594 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3302.594 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5188.599 (5) Opened log file at time: Sat, 05 Feb 2022 20:41:53 +0000 on https://agvoy.go.yj.fr
+5188.600 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+5188.600 (5) Free space on disk containing Updraft's temporary directory: 2050356.9 MB
+5188.601 (5) Requesting backup semaphore lock (8ef6349169af)
+5188.601 (5) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+5188.602 (5) Backup run: resumption=5, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (5189s ago), job type=backup
+5188.602 (5) Long time past since expected resumption time: approx expected=1644092114.6, now=1644093713.3, diff=1598.7
+5188.602 (5) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5188.603 (5) Scheduling a resumption (6) after 300 seconds (1644094013) in case this run gets aborted
+5188.609 (5) Checking if we have a zip executable available
+5188.609 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+5188.610 (5) Creation of backups of directories: already finished
+5188.610 (5) Saving backup status to database (elements: 8)
+5188.611 (5) Database dump (WordPress DB): Creation was completed already
+5188.612 (5) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5188.613 (5) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5188.613 (5) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+5188.613 (5) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+5188.614 (5) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+5188.614 (5) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+5188.614 (5) Saving backup history. Total backup size: Unknown
+5188.615 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+5188.616 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+5188.616 (5) Beginning dispatch of backup to remote (email)
+5188.616 (5) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+5188.616 (5) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+5190.797 (5) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+5190.799 (5) Email: Mails were not sent successfully
+5190.799 (5) An error condition has occurred for the first time during this job
+5190.800 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5190.800 (5) Number of backup sets in history: 2; groups (db): 1
+5190.801 (5) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+5190.801 (5) This backup set is the backup set just made, so will not be deleted.
+5190.801 (5) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+5190.801 (5) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5190.801 (5) Number of backup sets in history: 2; groups (files): 1
+5190.801 (5) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+5190.801 (5) This backup set is the backup set just made, so will not be deleted.
+5190.801 (5) This backup set is the backup set just made, so will not be deleted.
+5190.802 (5) This backup set is the backup set just made, so will not be deleted.
+5190.802 (5) This backup set is the backup set just made, so will not be deleted.
+5190.802 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5190.802 (5) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+5190.802 (5) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5190.802 (5) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5190.802 (5) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5190.802 (5) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5190.802 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+5190.802 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5190.803 (5) Resume backup (8ef6349169af, 5): finish run
+5190.804 (5) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+5190.804 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5190.805 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5532.877 (6) Opened log file at time: Sat, 05 Feb 2022 20:47:37 +0000 on https://agvoy.go.yj.fr
+5532.878 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+5532.879 (6) Free space on disk containing Updraft's temporary directory: 2050356.9 MB
+5532.882 (6) Requesting backup semaphore lock (8ef6349169af)
+5532.882 (6) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+5532.883 (6) Backup run: resumption=6, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (5533s ago), job type=backup
+5532.884 (6) Scheduling a resumption (7) after 300 seconds (1644094357) in case this run gets aborted
+5532.899 (6) Checking if we have a zip executable available
+5532.899 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+5532.899 (6) Creation of backups of directories: already finished
+5532.900 (6) Saving backup status to database (elements: 8)
+5532.901 (6) Database dump (WordPress DB): Creation was completed already
+5532.902 (6) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5532.903 (6) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5532.903 (6) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+5532.903 (6) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+5532.904 (6) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+5532.904 (6) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+5532.904 (6) Saving backup history. Total backup size: Unknown
+5532.905 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+5532.906 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+5532.906 (6) Beginning dispatch of backup to remote (email)
+5532.906 (6) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+5532.907 (6) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+5539.685 (6) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+5539.686 (6) Email: Mails were not sent successfully
+5539.686 (6) An error condition has occurred for the first time during this job
+5539.687 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5539.688 (6) Number of backup sets in history: 2; groups (db): 1
+5539.688 (6) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+5539.688 (6) This backup set is the backup set just made, so will not be deleted.
+5539.688 (6) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+5539.688 (6) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5539.688 (6) Number of backup sets in history: 2; groups (files): 1
+5539.689 (6) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+5539.689 (6) This backup set is the backup set just made, so will not be deleted.
+5539.689 (6) This backup set is the backup set just made, so will not be deleted.
+5539.689 (6) This backup set is the backup set just made, so will not be deleted.
+5539.689 (6) This backup set is the backup set just made, so will not be deleted.
+5539.689 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5539.689 (6) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+5539.689 (6) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5539.689 (6) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5539.689 (6) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5539.689 (6) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+5539.689 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+5539.689 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5539.691 (6) Resume backup (8ef6349169af, 6): finish run
+5539.691 (6) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+5539.692 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5539.692 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+10774.200 (7) Opened log file at time: Sat, 05 Feb 2022 22:14:58 +0000 on https://agvoy.go.yj.fr
+10774.201 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+10774.201 (7) Free space on disk containing Updraft's temporary directory: 2050354.8 MB
+10774.205 (7) Requesting backup semaphore lock (8ef6349169af)
+10774.205 (7) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+10774.206 (7) Backup run: resumption=7, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (10774s ago), job type=backup
+10774.206 (7) Long time past since expected resumption time: approx expected=1644094357.6, now=1644099298.9, diff=4941.3
+10774.206 (7) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+10774.207 (7) Scheduling a resumption (8) after 300 seconds (1644099598) in case this run gets aborted
+10774.224 (7) Checking if we have a zip executable available
+10774.224 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+10774.225 (7) Creation of backups of directories: already finished
+10774.225 (7) Saving backup status to database (elements: 8)
+10774.227 (7) Database dump (WordPress DB): Creation was completed already
+10774.227 (7) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+10774.228 (7) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10774.228 (7) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+10774.229 (7) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+10774.229 (7) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+10774.229 (7) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+10774.229 (7) Saving backup history. Total backup size: Unknown
+10774.230 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+10774.231 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+10774.232 (7) Beginning dispatch of backup to remote (email)
+10774.232 (7) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+10774.232 (7) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+10798.700 (7) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+10798.701 (7) Email: Mails were not sent successfully
+10798.702 (7) An error condition has occurred for the first time during this job
+10798.703 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10798.703 (7) Number of backup sets in history: 2; groups (db): 1
+10798.704 (7) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+10798.704 (7) This backup set is the backup set just made, so will not be deleted.
+10798.704 (7) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+10798.704 (7) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+10798.704 (7) Number of backup sets in history: 2; groups (files): 1
+10798.704 (7) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+10798.704 (7) This backup set is the backup set just made, so will not be deleted.
+10798.704 (7) This backup set is the backup set just made, so will not be deleted.
+10798.704 (7) This backup set is the backup set just made, so will not be deleted.
+10798.704 (7) This backup set is the backup set just made, so will not be deleted.
+10798.705 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+10798.705 (7) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+10798.705 (7) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+10798.705 (7) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+10798.705 (7) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+10798.705 (7) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+10798.705 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+10798.705 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+10798.706 (7) Resume backup (8ef6349169af, 7): finish run
+10798.706 (7) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+10798.707 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10798.708 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+13781.311 (8) Opened log file at time: Sat, 05 Feb 2022 23:05:06 +0000 on https://agvoy.go.yj.fr
+13781.312 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+13781.313 (8) Free space on disk containing Updraft's temporary directory: 2050350.6 MB
+13781.313 (8) Requesting backup semaphore lock (8ef6349169af)
+13781.314 (8) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+13781.314 (8) Backup run: resumption=8, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (13782s ago), job type=backup
+13781.314 (8) Long time past since expected resumption time: approx expected=1644099598.9, now=1644102306, diff=2707.1
+13781.315 (8) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+13781.315 (8) Scheduling a resumption (9) after 300 seconds (1644102606) in case this run gets aborted
+13781.365 (8) Checking if we have a zip executable available
+13781.365 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+13781.365 (8) Creation of backups of directories: already finished
+13781.366 (8) Saving backup status to database (elements: 8)
+13781.367 (8) Database dump (WordPress DB): Creation was completed already
+13781.368 (8) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+13781.369 (8) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13781.370 (8) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+13781.370 (8) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+13781.370 (8) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+13781.370 (8) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+13781.371 (8) Saving backup history. Total backup size: Unknown
+13781.371 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+13781.372 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+13781.373 (8) Beginning dispatch of backup to remote (email)
+13781.373 (8) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+13781.373 (8) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+13783.338 (8) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+13783.339 (8) Email: Mails were not sent successfully
+13783.339 (8) An error condition has occurred for the first time during this job
+13783.340 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13783.341 (8) Number of backup sets in history: 2; groups (db): 1
+13783.341 (8) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+13783.341 (8) This backup set is the backup set just made, so will not be deleted.
+13783.341 (8) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+13783.341 (8) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+13783.341 (8) Number of backup sets in history: 2; groups (files): 1
+13783.341 (8) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+13783.341 (8) This backup set is the backup set just made, so will not be deleted.
+13783.342 (8) This backup set is the backup set just made, so will not be deleted.
+13783.342 (8) This backup set is the backup set just made, so will not be deleted.
+13783.342 (8) This backup set is the backup set just made, so will not be deleted.
+13783.342 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+13783.342 (8) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+13783.342 (8) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+13783.342 (8) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+13783.342 (8) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+13783.342 (8) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+13783.342 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+13783.342 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13783.343 (8) Resume backup (8ef6349169af, 8): finish run
+13783.343 (8) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+13783.344 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13783.344 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+66714.206 (9) Opened log file at time: Sun, 06 Feb 2022 13:47:18 +0000 on https://agvoy.go.yj.fr
+66714.207 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 7.3.29 (litespeed, Linux node105-eu.n0c.com 3.10.0-962.3.2.lve1.5.60.el7.x86_64 #1 SMP Fri Jul 23 07:07:00 EDT 2021 x86_64) MySQL: 10.3.31-MariaDB (max packet size=536870912) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.7M | 58.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+66714.207 (9) Free space on disk containing Updraft's temporary directory: 2050464.4 MB
+66714.210 (9) Requesting backup semaphore lock (8ef6349169af)
+66714.211 (9) [Info] Lock (updraft_lock_8ef6349169af, wp_options) acquired
+66714.211 (9) Backup run: resumption=9, nonce=8ef6349169af, file_nonce=8ef6349169af begun at=1644088524 (66714s ago), job type=backup
+66714.211 (9) Long time past since expected resumption time: approx expected=1644102606, now=1644155238.9, diff=52632.9
+66714.212 (9) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+66714.212 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 1) - will not schedule a further attempt until we see something useful happening this time
+66714.213 (9) Scheduling a resumption (10) after 300 seconds (1644155538); but the job will then be aborted unless something happens this time
+66714.228 (9) Creation of backups of directories: already finished
+66714.228 (9) Saving backup status to database (elements: 8)
+66714.232 (9) Database dump (WordPress DB): Creation was completed already
+66714.232 (9) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+66714.234 (9) backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+66714.234 (9) backup_2022-02-05-2015_PhotoCC_8ef6349169af-themes.zip: themes: This file has already been successfully uploaded
+66714.234 (9) backup_2022-02-05-2015_PhotoCC_8ef6349169af-uploads.zip: uploads: This file has already been successfully uploaded
+66714.234 (9) backup_2022-02-05-2015_PhotoCC_8ef6349169af-others.zip: others: This file has already been successfully uploaded
+66714.235 (9) backup_2022-02-05-2015_PhotoCC_8ef6349169af-db.gz: db: This file has already been successfully uploaded
+66714.235 (9) Saving backup history. Total backup size: Unknown
+66714.236 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+66714.237 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+66714.264 (9) Beginning dispatch of backup to remote (email)
+66714.265 (9) [Warning] Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: Cette archive de sauvegarde pèse 27.8 Mo. Tenter de l’envoyer par e-mail risque d’échouer (peu de serveurs de messagerie permettent l’ajout de pièces jointes d'un tel volume). Vous devriez donc choisir une méthode différente de stockage à distance.
+66714.265 (9) Email: backup_2022-02-05-2015_PhotoCC_8ef6349169af-plugins.zip: email to: lunel...
+66719.994 (9) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+66719.994 (9) Email: Mails were not sent successfully
+66719.995 (9) An error condition has occurred for the first time during this job
+66719.995 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+66719.996 (9) Number of backup sets in history: 2; groups (db): 1
+66719.996 (9) Examining (for databases) backup set with group_id=0, nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+66719.996 (9) This backup set is the backup set just made, so will not be deleted.
+66719.996 (9) Examining (for databases) backup set with group_id=0, nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+66719.996 (9) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+66719.997 (9) Number of backup sets in history: 2; groups (files): 1
+66719.997 (9) Examining (for files) backup set with nonce=8ef6349169af, datestamp=1644088524 (Feb 05 2022 19:15:24)
+66719.997 (9) This backup set is the backup set just made, so will not be deleted.
+66719.997 (9) This backup set is the backup set just made, so will not be deleted.
+66719.997 (9) This backup set is the backup set just made, so will not be deleted.
+66719.997 (9) This backup set is the backup set just made, so will not be deleted.
+66719.997 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+66719.997 (9) Examining (for files) backup set with nonce=f04b3ecff5a1, datestamp=1641072619 (Jan 01 2022 21:30:19)
+66719.997 (9) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+66719.997 (9) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+66719.997 (9) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+66719.997 (9) This backup set (1641072619) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+66719.997 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+66719.998 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+66719.999 (9) Resume backup (8ef6349169af, 9): finish run
+66719.999 (9) [Info] Lock option (updraft_lock_8ef6349169af, wp_options) released
+66720.000 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+66720.000 (9) Fetching RSS news feed
+66720.260 (9) Fetched RSS news feed; result is a: SimplePie
+66720.322 (9) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 1, size: 108.2 KB) to: lunel...
+66720.483 (9) La tentative de sauvegarde est terminée, apparemment sans succès
